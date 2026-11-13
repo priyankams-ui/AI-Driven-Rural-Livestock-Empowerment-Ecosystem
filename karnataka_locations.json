@@ -1,0 +1,201 @@
+{
+  "districts": [
+    {
+      "name": "Mandya",
+      "region_tier": 1.1,
+      "taluks": {
+        "Mandya": ["Kothathi", "Induvalu", "Bettahalli", "Guttalu"],
+        "Maddur": ["KM Doddi", "Koppa", "Besagarahalli", "C.A. Kere"],
+        "Pandavapura": ["Melukote", "Kenchagonahalli", "Hirode", "Kyathanahalli"],
+        "Malavalli": ["Halaguru", "BGPura", "Kirugavalu", "Marehalli"],
+        "Nagamangala": ["Bindiganavile", "Devalapura", "Honakere", "Belluru"],
+        "KR Pet": ["Kikkeri", "Santhesara", "Akkihebbalu", "Triveni"],
+        "Srirangapatna": ["Palandhalli", "Arakere", "KRS", "Mahadevapura"]
+      }
+    },
+    {
+      "name": "Mysuru",
+      "region_tier": 1.15,
+      "taluks": {
+        "Mysuru": ["Varuna", "Jayapura", "Kadakola", "Yelwal"],
+        "Nanjangud": ["Hullahalli", "Hedathale", "Debur", "Kowlande"],
+        "Hunsur": ["Bilikere", "Gavinagere", "Kallahalli", "Dharampura"],
+        "KR Nagar": ["Saligrama", "Mirle", "Berya", "Hosa Agrahara"],
+        "Periyapatna": ["Bettadapura", "Bylakuppe", "Ravandur", "Kittur"],
+        "T Narsipur": ["Bannur", "Mugur", "Sosale", "Helavarahundi"],
+        "HD Kote": ["Antharasanthe", "Heggadadevankote", "Sargur", "Bairapura"]
+      }
+    },
+    {
+      "name": "Hassan",
+      "region_tier": 1.05,
+      "taluks": {
+        "Hassan": ["Shanthigrama", "Dudda", "Kattaya", "Kandali"],
+        "Channarayapatna": ["Nuggehalli", "Shravanabelagola", "Hirisave", "Hirisave Town"],
+        "Holenarasipura": ["Halekote", "Hallimysoor", "Hangarapura", "Kera"],
+        "Arsikere": ["Javagal", "Kanakuppe", "Banavara", "Gandasi"],
+        "Sakleshpur": ["Yeslur", "Hettur", "Hanbal", "Kukke"],
+        "Belur": ["Biccodu", "Halebeedu", "Arehalli", "Chethanahalli"],
+        "Arkalgud": ["Mallipatna", "Konanur", "Ramanathapura", "Magge"]
+      }
+    },
+    {
+      "name": "Tumakuru",
+      "region_tier": 1.05,
+      "taluks": {
+        "Tumakuru": ["Hebbur", "Bellavi", "Kyatsandra", "Hirehalli"],
+        "Gubbi": ["Chelur", "Nittur", "Kadanagere", "Hagalavadi"],
+        "Sira": ["Tavarekere", "Bukkapatna", "Kallambella", "Huliyar"],
+        "Tiptur": ["Kibbanahalli", "Honnavalli", "Nonavinakere", "Halgondanahalli"],
+        "Madhugiri": ["Kodigenahalli", "Midigeshi", "Puravara", "Ittigadappanahalli"],
+        "Kunigal": ["Huliyurdurga", "Yediyur", "Kothagere", "Amrutthur"],
+        "Koratagere": ["Kolala", "Holavanahalli", "Akkirampura", "Mavathur"],
+        "Pavagada": ["Y N Hosakote", "Nagalamadike", "Sainathpura", "Roppa"]
+      }
+    },
+    {
+      "name": "Bengaluru Rural",
+      "region_tier": 1.25,
+      "taluks": {
+        "Doddaballapura": ["Doddabelavangala", "Tubagere", "Sasalu", "Doddatumkur"],
+        "Devanahalli": ["Vijayapura", "Kundana", "Channarayapatna", "Budigere"],
+        "Hosakote": ["Sulibele", "Jadigenahalli", "Anugondanahalli", "Nandagudi"],
+        "Nelamangala": ["Thyamagondlu", "Sompura", "Dabaspete", "Manne"]
+      }
+    },
+    {
+      "name": "Bengaluru Urban",
+      "region_tier": 1.3,
+      "taluks": {
+        "Yelahanka": ["Hunasamaranahalli", "Jala", "Bettahalsoor", "Rajanukunte"],
+        "Kengeri": ["Kumbalgodu", "Tavarekere", "Kengeri Satellite Town", "Chunchanakuppe"],
+        "Anekal": ["Sarjapura", "Attibele", "Jigani", "Chandapura"],
+        "KR Puram": ["Varthur", "Whitefield Rural", "Bidarahalli", "Avalahalli"]
+      }
+    },
+    {
+      "name": "Ramanagara",
+      "region_tier": 1.1,
+      "taluks": {
+        "Ramanagara": ["Kailancha", "Bidadi", "Kootagal", "Sugganahalli"],
+        "Channapatna": ["Virupakshipura", "Makkali", "Akkur", "Honganuru"],
+        "Kanakapura": ["Harohalli", "Maralavadi", "Uthanahalli", "Kodihalli"],
+        "Magadi": ["Solur", "Kudur", "Tippasandra", "Motaganahalli"]
+      }
+    },
+    {
+      "name": "Chamarajanagara",
+      "region_tier": 1.0,
+      "taluks": {
+        "Chamarajanagara": ["Hardanahalli", "Santhemarahalli", "Kuderu", "Chandakavadi"],
+        "Kollegala": ["Hanur", "Ramapura", "Lakkur", "Kamagere"],
+        "Gundlupete": ["Begur", "Hangala", "Terakanambi", "Triyambakapura"],
+        "Yelandur": ["Agara", "Mamballi", "Kestur", "Yeragamballi"]
+      }
+    },
+    {
+      "name": "Kolar",
+      "region_tier": 1.1,
+      "taluks": {
+        "Kolar": ["Sugatur", "Vemagal", "Huttur", "Vokkaleri"],
+        "Bangarapet": ["Kamasamudram", "Deshihalli", "Budikote", "Magondi"],
+        "Malur": ["Lakkur", "Masti", "Tekal", "Thornahalli"],
+        "Mulbagal": ["Tayalur", "Avani", "Duggasandra", "Nangali"],
+        "Srinivaspur": ["Yeldur", "Ronur", "Rayalpadu", "Gownipalli"]
+      }
+    },
+    {
+      "name": "Chikkaballapura",
+      "region_tier": 1.1,
+      "taluks": {
+        "Chikkaballapura": ["Nandi", "Mandikal", "Peresandra", "Agalagurki"],
+        "Gauribidanur": ["Manchenahalli", "Thondebhavi", "Hosur", "D Pura"],
+        "Sidlaghatta": ["Dibburahalli", "Jangamakote", "Sadali", "Basettihalli"],
+        "Bagepalli": ["Chelur", "Pathapalya", "Guluru", "Marganakunte"],
+        "Chintamani": ["Kaiwara", "Ambajidurga", "Murugamalla", "Masti"]
+      }
+    },
+    {
+      "name": "Shivamogga",
+      "region_tier": 1.05,
+      "taluks": {
+        "Shivamogga": ["Kumsi", "Harnahalli", "Ayanur", "Nidige"],
+        "Bhadravathi": ["Kudli", "Holehonnur", "Paper Town Rural", "Barandur"],
+        "Sagara": ["Talaguppa", "Anandapuram", "Kargal", "Avinhalli"],
+        "Shikaripura": ["Shiralkoppa", "Hosur", "Salur", "Kudli"],
+        "Soraba": ["Anavatti", "Jade", "Ulavi", "Chandragutti"],
+        "Thirthahalli": ["Rajanagara", "Agumbe", "Konnodi", "Megaravalli"]
+      }
+    },
+    {
+      "name": "Belagavi",
+      "region_tier": 1.15,
+      "taluks": {
+        "Belagavi": ["Vadagaon", "Peeranwadi", "Bacolli", "Kakati"],
+        "Gokak": ["Ghataprabha", "Konnur", "Koujalgi", "Arabhavi"],
+        "Chikkodi": ["Nipani", "Sadalga", "Koganolli", "Yeksamba"],
+        "Bailhongal": ["Nesaragi", "Sampagaon", "Doddawad", "Kittur"],
+        "Khanapur": ["Londa", "Jamboti", "Beedi", "Nagara"]
+      }
+    },
+    {
+      "name": "Bagalkote",
+      "region_tier": 1.05,
+      "taluks": {
+        "Bagalkote": ["Navanagara", "Simikeri", "Kaladgi", "Seetimani"],
+        "Badami": ["Guledgudda", "Pattadakal", "Kerur", "Belur"],
+        "Ilkal": ["Hungund", "Aminagad", "Karadi", "Kudalasangama"],
+        "Mudhol": ["Lokapur", "Mahalingpur", "Chichkandi", "Ranna Belagali"]
+      }
+    },
+    {
+      "name": "Vijayapura",
+      "region_tier": 1.0,
+      "taluks": {
+        "Vijayapura": ["Babanagar", "Tikota", "Mamadapura", "Horti"],
+        "Indi": ["Zalki", "Loni", "Horti", "Lachyan"],
+        "Muddebihal": ["Talikoti", "Nalatwad", "Nalatwad Town", "Mudoor"],
+        "Sindagi": ["Almel", "Devar Hippargi", "Konnur", "Yankanchi"]
+      }
+    },
+    {
+      "name": "Kalaburagi",
+      "region_tier": 1.0,
+      "taluks": {
+        "Kalaburagi": ["Farhatabad", "Kamalapur", "Kotnoor", "Pattan"],
+        "Aland": ["Nimbal", "Koralli", "Madan Hipparga", "Khajuri"],
+        "Sedam": ["Kodal", "Muddapur", "Kurkunta", "Adki"],
+        "Jevargi": ["Andola", "Yedrami", "Jeratgi", "Nelogi"]
+      }
+    },
+    {
+      "name": "Dharwad",
+      "region_tier": 1.1,
+      "taluks": {
+        "Dharwad": ["Garag", "Alnavar", "Hebballi", "Nigadi"],
+        "Hubballi": ["Kundgol", "Navalgund", "Byahatti", "Chabbi"],
+        "Kalghatgi": ["Tadas", "Dummawad", "Bhendigeri", "Mishrikoti"]
+      }
+    },
+    {
+      "name": "Dakshina Kannada",
+      "region_tier": 1.15,
+      "taluks": {
+        "Mangaluru": ["Surathkal", "Gurupura", "Mulki", "Bantwal"],
+        "Bantwal": ["Vittal", "Panemangalore", "Modankap", "Farangipete"],
+        "Puttur": ["Kadinabail", "Uppinangady", "Nellyadi", "Kaniyoor"],
+        "Belthangady": ["Ujire", "Dharmasthala", "Guruvayanakere", "Kokkada"],
+        "Sullia": ["Guthigar", "Bellare", "Jalthoor", "Subrahmanya"]
+      }
+    },
+    {
+      "name": "Udupi",
+      "region_tier": 1.15,
+      "taluks": {
+        "Udupi": ["Malpe", "Kaup", "Brahmavar", "Manipal Rural"],
+        "Kundapura": ["Byndoor", "Tallur", "Kota", "Basrur"],
+        "Karkala": ["Moodbidri Rural", "Ajekar", "Belman", "Miyard"]
+      }
+    }
+  ]
+}

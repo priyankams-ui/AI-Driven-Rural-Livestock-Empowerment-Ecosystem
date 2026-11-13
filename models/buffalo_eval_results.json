@@ -1,0 +1,77 @@
+{
+  "train_animals": 111,
+  "val_animals": 13,
+  "test_animals": 13,
+  "test_accuracy": 0.8461538461538461,
+  "test_precision": 0.8717948717948718,
+  "test_recall": 0.8461538461538461,
+  "test_f1": 0.8146853146853146,
+  "confusion_matrix": [
+    [
+      10,
+      0
+    ],
+    [
+      2,
+      1
+    ]
+  ],
+  "reference_results": [
+    {
+      "path": "data/new_images/femalebuffolo.jpg",
+      "description": "Female Buffalo 0 (Murrah, Udder/Teats visible)",
+      "true_gender": "Female",
+      "predicted_gender": "Female",
+      "confidence": 0.6712283754588956,
+      "passed": true
+    },
+    {
+      "path": "data/new_images/femalebuffolo1.jpg",
+      "description": "Female Buffalo 1 (Field, Posterior Udder visible)",
+      "true_gender": "Female",
+      "predicted_gender": "Female",
+      "confidence": 0.8914314927522348,
+      "passed": true
+    },
+    {
+      "path": "data/new_images/femalebuffolo2.jpg",
+      "description": "Female Buffalo 2 (White background, Teats visible)",
+      "true_gender": "Female",
+      "predicted_gender": "Female",
+      "confidence": 0.8535413803914654,
+      "passed": true
+    },
+    {
+      "path": "data/new_images/malebuffolo.jpg",
+      "description": "Male Buffalo 0 (Grass, Ventral Sheath visible)",
+      "true_gender": "Male",
+      "predicted_gender": "Male",
+      "confidence": 0.91669867653184,
+      "passed": true
+    },
+    {
+      "path": "data/new_images/malebuffolo1.jpg",
+      "description": "Male Buffalo 1 (Dirt path, Preputial Sheath visible)",
+      "true_gender": "Male",
+      "predicted_gender": "Male",
+      "confidence": 0.9032060134995179,
+      "passed": true
+    },
+    {
+      "path": "data/new_images/malebuffolo2.jpg",
+      "description": "Male Buffalo 2 (Open ground, Prepuce visible)",
+      "true_gender": "Male",
+      "predicted_gender": "Male",
+      "confidence": 0.9023909831521287,
+      "passed": true
+    },
+    {
+      "path": "data/new_images/malebuffolo3.jpg",
+      "description": "Male Buffalo 3 (Heavy bull, Penile Sheath visible)",
+      "true_gender": "Male",
+      "predicted_gender": "Female",
+      "confidence": 0.5393650261757045,
+      "passed": false
+    }
+  ]
+}

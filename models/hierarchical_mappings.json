@@ -1,0 +1,100 @@
+{
+  "species_map": {
+    "Cow": 0,
+    "Buffalo": 1,
+    "Unknown": 2
+  },
+  "rev_species_map": {
+    "0": "Cow",
+    "1": "Buffalo",
+    "2": "Unknown"
+  },
+  "cattle_breeds": [
+    "Ayrshire cattle",
+    "Brown Swiss cattle",
+    "Holstein Friesian cattle",
+    "Jersey cattle",
+    "Red Dane cattle"
+  ],
+  "cattle_breed_map": {
+    "Ayrshire cattle": 0,
+    "Brown Swiss cattle": 1,
+    "Holstein Friesian cattle": 2,
+    "Jersey cattle": 3,
+    "Red Dane cattle": 4
+  },
+  "rev_cattle_breed_map": {
+    "0": "Ayrshire cattle",
+    "1": "Brown Swiss cattle",
+    "2": "Holstein Friesian cattle",
+    "3": "Jersey cattle",
+    "4": "Red Dane cattle"
+  },
+  "buffalo_breeds": [
+    "Chhattisgarhi",
+    "Jaffarabadi",
+    "banni",
+    "bargur",
+    "bhadwari",
+    "chilika",
+    "gojri",
+    "kalahandi",
+    "luit",
+    "marathwada",
+    "mehsana",
+    "murrah",
+    "nagpuri",
+    "nili-ravi",
+    "pandharpuri",
+    "surti",
+    "toda"
+  ],
+  "buffalo_breed_map": {
+    "Chhattisgarhi": 0,
+    "Jaffarabadi": 1,
+    "banni": 2,
+    "bargur": 3,
+    "bhadwari": 4,
+    "chilika": 5,
+    "gojri": 6,
+    "kalahandi": 7,
+    "luit": 8,
+    "marathwada": 9,
+    "mehsana": 10,
+    "murrah": 11,
+    "nagpuri": 12,
+    "nili-ravi": 13,
+    "pandharpuri": 14,
+    "surti": 15,
+    "toda": 16
+  },
+  "rev_buffalo_breed_map": {
+    "0": "Chhattisgarhi",
+    "1": "Jaffarabadi",
+    "2": "banni",
+    "3": "bargur",
+    "4": "bhadwari",
+    "5": "chilika",
+    "6": "gojri",
+    "7": "kalahandi",
+    "8": "luit",
+    "9": "marathwada",
+    "10": "mehsana",
+    "11": "murrah",
+    "12": "nagpuri",
+    "13": "nili-ravi",
+    "14": "pandharpuri",
+    "15": "surti",
+    "16": "toda"
+  },
+  "gender_map": {
+    "Female": 0,
+    "Male": 1
+  },
+  "rev_gender_map": {
+    "0": "Female",
+    "1": "Male"
+  },
+  "species_confidence_threshold": 0.7,
+  "gender_confidence_threshold": 0.80
+}

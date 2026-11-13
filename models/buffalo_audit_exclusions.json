@@ -1,0 +1,206 @@
+[
+  {
+    "path": "buffalo/bhadwari/Apparently_Cross_Between_Cows_Buffalo_.jpg",
+    "base_id": "Clean_Buff_016",
+    "claimed_gender": "Female",
+    "reason": "Non-buffalo image / Cow / Multi-species collage / AI animation"
+  },
+  {
+    "path": "buffalo/bhadwari/Gaay_Bhens_Dekho_cows_breeds_.jpg",
+    "base_id": "Clean_Buff_018",
+    "claimed_gender": "Female",
+    "reason": "Non-buffalo image / Cow / Multi-species collage / AI animation"
+  },
+  {
+    "path": "buffalo/bhadwari/Punganur_Cow_Breed_.jpg",
+    "base_id": "Clean_Buff_020",
+    "claimed_gender": "Female",
+    "reason": "Non-buffalo image / Cow / Multi-species collage / AI animation"
+  },
+  {
+    "path": "buffalo/chilika/Dairy_Farming_Buffalo_Pics (2).jpg",
+    "base_id": "Clean_Buff_023",
+    "claimed_gender": "Female",
+    "reason": "Full body visibility failed: Deep validator flagged partial/headshot (p_full=0.128)"
+  },
+  {
+    "path": "buffalo/Jaffarabadi/50_Jafarabadi_Buffalo_Dairy_Farming_by_.jpg",
+    "base_id": "Clean_Buff_025",
+    "claimed_gender": "Female",
+    "reason": "Full body visibility failed: Severed animal truncated at left border"
+  },
+  {
+    "path": "buffalo/Jaffarabadi/best_india_breed_jafarabadi_bull_.jpg",
+    "base_id": "Clean_Buff_027",
+    "claimed_gender": "Male",
+    "reason": "Full body visibility failed: Deep validator flagged partial/headshot (p_full=0.047)"
+  },
+  {
+    "path": "buffalo/Jaffarabadi/Big_Jafarabadi_Buffalo_Bull_2023_Sadeeq_.jpg",
+    "base_id": "Clean_Buff_028",
+    "claimed_gender": "Male",
+    "reason": "Full body visibility failed: Deep validator flagged partial/headshot (p_full=0.194)"
+  },
+  {
+    "path": "buffalo/Jaffarabadi/Cows_Dancing_A_Hilarious_AI_Cow_Dance_.jpg",
+    "base_id": "Clean_Buff_032",
+    "claimed_gender": "Female",
+    "reason": "Non-buffalo image / Cow / Multi-species collage / AI animation"
+  },
+  {
+    "path": "buffalo/Jaffarabadi/Cow_Videos (1).jpg",
+    "base_id": "Clean_Buff_033",
+    "claimed_gender": "Female",
+    "reason": "Non-buffalo image / Cow / Multi-species collage / AI animation"
+  },
+  {
+    "path": "buffalo/Jaffarabadi/dairyfarm_buffalo_milk_animal_reel_.jpg",
+    "base_id": "Clean_Buff_034",
+    "claimed_gender": "Female",
+    "reason": "Full body visibility failed: Deep validator flagged partial/headshot (p_full=0.017)"
+  },
+  {
+    "path": "buffalo/Jaffarabadi/Dairy_Farming_November_2013.jpg",
+    "base_id": "Clean_Buff_036",
+    "claimed_gender": "Female",
+    "reason": "Full body visibility failed: Deep validator flagged partial/headshot (p_full=0.004)"
+  },
+  {
+    "path": "buffalo/Jaffarabadi/Exploring_Dairy_Farming_with_Nili_Ravi_.jpg",
+    "base_id": "Clean_Buff_039",
+    "claimed_gender": "Female",
+    "reason": "Full body visibility failed: Deep validator flagged partial/headshot (p_full=0.008)"
+  },
+  {
+    "path": "buffalo/Jaffarabadi/Exploring_Gujrat_Dairy_and_Cattle_Farm_.jpg",
+    "base_id": "Clean_Buff_040",
+    "claimed_gender": "Female",
+    "reason": "Full body visibility failed: Deep validator flagged partial/headshot (p_full=0.359)"
+  },
+  {
+    "path": "buffalo/Jaffarabadi/Gir_Fighter_Cow_.jpg",
+    "base_id": "Clean_Buff_042",
+    "claimed_gender": "Female",
+    "reason": "Non-buffalo image / Cow / Multi-species collage / AI animation"
+  },
+  {
+    "path": "buffalo/Jaffarabadi/Jafarabadi_heifer_Mekhi_Mother-Bhoj_.jpg",
+    "base_id": "Clean_Buff_051",
+    "claimed_gender": "Female",
+    "reason": "Immature calf/heifer without visible developed reproductive anatomy"
+  },
+  {
+    "path": "buffalo/Jaffarabadi/Some_good_jafrabadi_bulls.jpg",
+    "base_id": "Clean_Buff_054",
+    "claimed_gender": "Male",
+    "reason": "Full body visibility failed: Deep validator flagged partial/headshot (p_full=0.004)"
+  },
+  {
+    "path": "buffalo/Jaffarabadi/Surti_Buffalo_Black_Jafarabadi_Bull_at_.jpg",
+    "base_id": "Clean_Buff_055",
+    "claimed_gender": "Male",
+    "reason": "Full body visibility failed: Deep validator flagged partial/headshot (p_full=0.017)"
+  },
+  {
+    "path": "buffalo/Jaffarabadi/Top_Milk_Dairy_in_Gathaman_-_Best_Doodh_.jpg",
+    "base_id": "Clean_Buff_056",
+    "claimed_gender": "Female",
+    "reason": "Full body visibility failed: Deep validator flagged partial/headshot (p_full=0.001)"
+  },
+  {
+    "path": "buffalo/luit/How_to_Start_Dairy_Farming_in_Odisha_.jpg",
+    "base_id": "Clean_Buff_061",
+    "claimed_gender": "Female",
+    "reason": "Full body visibility failed: Severed animal truncated at left border"
+  },
+  {
+    "path": "buffalo/marathwada/Buffalo_Buffalo_Mother_Son_Stock_Image_.jpg",
+    "base_id": "Clean_Buff_063",
+    "claimed_gender": "Female",
+    "reason": "Full body visibility failed: Deep validator flagged partial/headshot (p_full=0.185)"
+  },
+  {
+    "path": "buffalo/murrah/1_Yr_Male_Murrah_Buffalo_Calf_at_ (1).jpg",
+    "base_id": "Clean_Buff_070",
+    "claimed_gender": "Male",
+    "reason": "Immature calf/heifer without visible developed reproductive anatomy"
+  },
+  {
+    "path": "buffalo/murrah/1_Yr_Male_Murrah_Buffalo_Calf_at_.jpg",
+    "base_id": "Clean_Buff_071",
+    "claimed_gender": "Male",
+    "reason": "Immature calf/heifer without visible developed reproductive anatomy"
+  },
+  {
+    "path": "buffalo/murrah/Murrah_Buffalo_Calf_Milking_Capacity_.jpg",
+    "base_id": "Clean_Buff_088",
+    "claimed_gender": "Female",
+    "reason": "Immature calf/heifer without visible developed reproductive anatomy"
+  },
+  {
+    "path": "buffalo/murrah/Murrah_Buffalo_High_Milking_Capacity_.jpg",
+    "base_id": "Clean_Buff_092",
+    "claimed_gender": "Female",
+    "reason": "Full body visibility failed: Deep validator flagged partial/headshot (p_full=0.391)"
+  },
+  {
+    "path": "buffalo/murrah/Murrah_Buffalo_Male_Calf_at_3000000_.jpg",
+    "base_id": "Clean_Buff_093",
+    "claimed_gender": "Male",
+    "reason": "Immature calf/heifer without visible developed reproductive anatomy"
+  },
+  {
+    "path": "buffalo/murrah/Murrah_Bull_Yuvraj_in_India_Murrah_.jpg",
+    "base_id": "Clean_Buff_099",
+    "claimed_gender": "Male",
+    "reason": "Full body visibility failed: Deep validator flagged partial/headshot (p_full=0.007)"
+  },
+  {
+    "path": "buffalo/murrah/Pure_Black_Pregnant_Murrah_Buffalo_.jpg",
+    "base_id": "Clean_Buff_105",
+    "claimed_gender": "Female",
+    "reason": "Full body visibility failed: Deep validator flagged partial/headshot (p_full=0.126)"
+  },
+  {
+    "path": "buffalo/nili-ravi/Nili_Ravi_Female_Calf_Niliravi.jpg",
+    "base_id": "Clean_Buff_121",
+    "claimed_gender": "Female",
+    "reason": "Immature calf/heifer without visible developed reproductive anatomy"
+  },
+  {
+    "path": "buffalo/nili-ravi/Nili_Ravi_Female_Calf_niliravi_.jpg",
+    "base_id": "Clean_Buff_122",
+    "claimed_gender": "Female",
+    "reason": "Immature calf/heifer without visible developed reproductive anatomy"
+  },
+  {
+    "path": "buffalo/surti/Murrah_Buffalo_Calf_For_Dairy_Use_.jpg",
+    "base_id": "Clean_Buff_130",
+    "claimed_gender": "Female",
+    "reason": "Immature calf/heifer without visible developed reproductive anatomy"
+  },
+  {
+    "path": "buffalo/surti/Murrah_Buffalo_for_Dairy_Farming_.jpg",
+    "base_id": "Clean_Buff_131",
+    "claimed_gender": "Female",
+    "reason": "Full body visibility failed: Deep validator flagged partial/headshot (p_full=0.298)"
+  },
+  {
+    "path": "buffalo/bhadwari/image_introduction_of_cows_Buffaloes_.jpg",
+    "base_id": "Clean_Buff_133",
+    "claimed_gender": "Female",
+    "reason": "Low resolution or corrupt image (128x88)"
+  },
+  {
+    "path": "buffalo/murrah/Cows_Cattles_Ox_Buffalo_Sheep_Goat_.jpg",
+    "base_id": "Clean_Buff_134",
+    "claimed_gender": "Female",
+    "reason": "Non-buffalo image / Cow / Multi-species collage / AI animation"
+  },
+  {
+    "path": "buffalo/surti/Cattles_Ox_Buffalo_Sheep_Goat_.jpg",
+    "base_id": "Clean_Buff_135",
+    "claimed_gender": "Male",
+    "reason": "Non-buffalo image / Cow / Multi-species collage / AI animation"
+  }
+]

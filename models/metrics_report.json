@@ -1,0 +1,47 @@
+{
+  "species_classifier": {
+    "accuracy": 0.9931740614334471,
+    "precision": 0.9932481916187532,
+    "recall": 0.9931740614334471,
+    "f1_score": 0.9931891607636096
+  },
+  "cattle_breed_classifier": {
+    "accuracy": 0.911504424778761,
+    "precision": 0.9119127249562032,
+    "recall": 0.913539641943734,
+    "f1_score": 0.9091697816917843
+  },
+  "buffalo_breed_classifier": {
+    "accuracy": 0.8709677419354839,
+    "precision": 0.8630350138135606,
+    "recall": 0.8597144121889159,
+    "f1_score": 0.8565699262228212
+  },
+  "cattle_gender_classifier": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0
+  },
+  "buffalo_gender_classifier": {
+    "accuracy": 0.9,
+    "precision": 0.9125,
+    "recall": 0.9,
+    "f1_score": 0.8933333333333333
+  },
+  "price_prediction_model": {
+    "dataset_source": "karnataka_livestock_market_transactions.csv (Verified Transactions, SLUCC & Santhe Surveys)",
+    "total_records": 15910,
+    "train_split_pct": 80.0,
+    "val_split_pct": 10.0,
+    "test_split_pct": 10.0,
+    "r2_score": 0.998,
+    "mae": 765.12,
+    "rmse": 1295.02,
+    "mean_bias_error": 18.16,
+    "accuracy_within_10_pct": 0.9893,
+    "accuracy_within_15_pct": 0.9969,
+    "calibration_half_width": 1412.45,
+    "test_coverage_85pct_interval": 0.858
+  }
+}

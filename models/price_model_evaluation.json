@@ -1,0 +1,46 @@
+{
+  "old_model_metrics": {
+    "mae": 8805.92733785748,
+    "rmse": 13559.411704472115,
+    "r2_score": 0.7785702774673141,
+    "mean_bias_error": 7140.294886274356,
+    "within_10_pct": 0.4965430546825896,
+    "within_15_pct": 0.5619107479572596
+  },
+  "new_model_metrics": {
+    "r2_score": 0.9979802030884127,
+    "mae": 765.1168480662712,
+    "rmse": 1295.020792524188,
+    "mean_bias_error": 18.158924344948147,
+    "accuracy_within_10pct": 0.9893148962916405,
+    "accuracy_within_15pct": 0.9968573224387178,
+    "test_interval_coverage": 0.857950974230044
+  },
+  "species_eval": {
+    "count": {
+      "Buffalo": 666,
+      "Cow": 925
+    },
+    "mean_actual": {
+      "Buffalo": 46422.1,
+      "Cow": 44324.0
+    },
+    "mean_pred": {
+      "Buffalo": 46439.0,
+      "Cow": 44343.1015625
+    },
+    "mae": {
+      "Buffalo": 791.6,
+      "Cow": 746.1
+    },
+    "mean_pct_err": {
+      "Buffalo": 1.9,
+      "Cow": 1.9
+    }
+  },
+  "benchmark_30l_test": {
+    "predicted_price": 109900.0,
+    "range_min": 108500.0,
+    "range_max": 111300.0
+  }
+}

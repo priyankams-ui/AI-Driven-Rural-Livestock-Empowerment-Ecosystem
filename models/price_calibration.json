@@ -1,0 +1,10 @@
+{
+  "calibration_method": "conformal_empirical_quantile",
+  "target_coverage_nominal": 0.85,
+  "half_width_inr": 1410.0,
+  "residual_std_inr": 1300.0,
+  "val_mae_inr": 807.6,
+  "val_rmse_inr": 1304.4,
+  "min_market_floor_inr": 15000,
+  "diminishing_marginal_yield_threshold": 20.0
+}

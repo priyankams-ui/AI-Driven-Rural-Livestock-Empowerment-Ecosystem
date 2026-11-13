@@ -1,0 +1,1896 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livestock Empowerment Ecosystem | Karnataka Cow & Buffalo Marketplace</title>
+    <!-- Google Fonts: Inter and Outfit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome 6 Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="/static/css/style.css?v=3.8.0">
+</head>
+<body>
+
+    <!-- ========================================================= -->
+    <!-- TOP NOTIFICATION BANNER / ALERT CONTAINER -->
+    <!-- ========================================================= -->
+    <div id="toast-container" class="toast-container"></div>
+
+    <!-- ========================================================= -->
+    <!-- MAIN NAVIGATION HEADER -->
+    <!-- ========================================================= -->
+    <header class="navbar" id="main-navbar">
+        <div class="nav-container">
+            <div class="brand" onclick="navigateTo('home')">
+                <div class="logo-icon"><i class="fa-solid fa-cow"></i></div>
+                <div class="brand-text">
+                    <span class="brand-title">LIVESTOCK EMPOWERMENT ECOSYSTEM</span>
+                    <span class="brand-subtitle">Karnataka Cow & Buffalo Marketplace</span>
+                </div>
+            </div>
+
+            <!-- Public / Global Navigation Links -->
+            <nav class="nav-links" id="public-nav">
+                <button class="nav-link active" id="nav-btn-home" onclick="navigateTo('home')"><i class="fa-solid fa-house"></i> Home</button>
+                <button class="nav-link" id="nav-btn-about" onclick="navigateTo('about')"><i class="fa-solid fa-circle-info"></i> About</button>
+                <button class="nav-link" id="nav-btn-login" onclick="navigateTo('login')"><i class="fa-solid fa-right-to-bracket"></i> Login</button>
+                <button class="nav-link nav-btn-highlight" id="nav-btn-register" onclick="navigateTo('register')"><i class="fa-solid fa-user-plus"></i> Register</button>
+            </nav>
+
+            <!-- Authenticated Navigation Links (Role Specific) -->
+            <div class="auth-user-bar" id="auth-user-bar" style="display:none;">
+                <div class="user-greeting-badge">
+                    <i class="fa-solid fa-circle-user"></i>
+                    <div class="user-meta-text">
+                        <span class="user-name" id="nav-user-name">Farmer Name</span>
+                        <span class="user-role-tag" id="nav-user-role">FARMER</span>
+                    </div>
+                </div>
+                <button class="nav-link nav-btn-dash" id="nav-btn-dashboard" onclick="openActiveDashboard()"><i class="fa-solid fa-gauge-high"></i> Dashboard</button>
+                <button class="nav-link nav-btn-logout" onclick="handleLogout()"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ========================================================= -->
+    <!-- MAIN CONTENT CONTAINER -->
+    <!-- ========================================================= -->
+    <main class="main-content">
+
+        <!-- ========================================================= -->
+        <!-- VIEW 1: PUBLIC HOME PAGE (SHOWN FIRST) -->
+        <!-- ========================================================= -->
+        <section id="view-home" class="page-view active">
+            <!-- Hero Section -->
+            <div class="home-hero">
+                <div class="home-hero-badge"><i class="fa-solid fa-location-dot"></i> Verified Karnataka Livestock Trade</div>
+                <h1 class="hero-title">LIVESTOCK EMPOWERMENT ECOSYSTEM</h1>
+                <p class="hero-subtitle">An easy platform for farmers to list their cows and buffaloes and for buyers to find livestock based on their requirements.</p>
+                
+                <div class="hero-cta-group">
+                    <button class="btn btn-primary btn-lg" onclick="navigateTo('register')">
+                        <i class="fa-solid fa-user-plus"></i> Register New Account
+                    </button>
+                    <button class="btn btn-secondary btn-lg" onclick="navigateTo('login')">
+                        <i class="fa-solid fa-right-to-bracket"></i> Login to Marketplace
+                    </button>
+                </div>
+
+                <div class="hero-feature-stats">
+                    <div class="feature-stat-item">
+                        <div class="stat-icon"><i class="fa-solid fa-cow"></i></div>
+                        <div class="stat-info">
+                            <strong>Cow Breeds</strong>
+                            <span>HF, Jersey, Red Dane, Brown Swiss & Native Breeds</span>
+                        </div>
+                    </div>
+                    <div class="feature-stat-item">
+                        <div class="stat-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                        <div class="stat-info">
+                            <strong>Buffalo Breeds</strong>
+                            <span>Murrah, Surti, Jaffarabadi, Mehsana & Banni</span>
+                        </div>
+                    </div>
+                    <div class="feature-stat-item">
+                        <div class="stat-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                        <div class="stat-info">
+                            <strong>Karnataka Locations</strong>
+                            <span>31 Districts, 240 Taluks, 30,753 Villages</span>
+                        </div>
+                    </div>
+                    <div class="feature-stat-item">
+                        <div class="stat-icon"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+                        <div class="stat-info">
+                            <strong>Cash on Delivery</strong>
+                            <span>Doorstep Distance-Based Delivery Calculation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Knowledge / Practical Livestock Information Section -->
+            <div class="home-section-container">
+                <div class="section-title-wrap text-center">
+                    <h2>Dairy Livestock in Karnataka</h2>
+                    <p>Understanding cow and buffalo farming, milk yields, and sustainable dairy practices.</p>
+                </div>
+
+                <div class="livestock-info-grid">
+                    <!-- Cow Info Card -->
+                    <div class="info-card">
+                        <div class="info-card-header cow-theme">
+                            <i class="fa-solid fa-cow"></i>
+                            <h3>COWS (ಹಸು)</h3>
+                        </div>
+                        <div class="info-card-body">
+                            <h4>Milk Production & Characteristics</h4>
+                            <p>Cows form the backbone of Karnataka's dairy industry. High-yielding crossbreeds like Holstein Friesian (HF) and Jersey produce between 15 to 28+ litres per day, while indigenous breeds offer disease resistance and rich A2 milk.</p>
+                            
+                            <h4>Breeding & Management</h4>
+                            <p>Healthy breeding management requires regular lactation cycle tracking, balanced nutritional feed (green fodder, dry roughage, and mineral mixture), and routine veterinary vaccinations.</p>
+
+                            <ul class="info-list">
+                                <li><i class="fa-solid fa-check"></i> High daily milk yield and consistent lactation curve</li>
+                                <li><i class="fa-solid fa-check"></i> Popular breeds: Holstein Friesian, Jersey, Red Dane, Brown Swiss</li>
+                                <li><i class="fa-solid fa-check"></i> Adaptable to diverse Karnataka agro-climatic zones</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Buffalo Info Card -->
+                    <div class="info-card">
+                        <div class="info-card-header buffalo-theme">
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <h3>BUFFALOES (ಎಮ್ಮೆ)</h3>
+                        </div>
+                        <div class="info-card-body">
+                            <h4>Milk Production & Characteristics</h4>
+                            <p>Buffalo milk is renowned for its high butterfat content (6.5% to 8.5%), making it highly valuable for premium milk products, curd, ghee, and dairy cooperatives across Karnataka.</p>
+
+                            <h4>Breeding & Management</h4>
+                            <p>Buffaloes exhibit superior feed conversion efficiency for roughage and coarse fodder. Notable breeds like Murrah, Surti, and Jaffarabadi thrive in irrigated river basin regions and require wallowing facilities or cool shelter during peak summer.</p>
+
+                            <ul class="info-list">
+                                <li><i class="fa-solid fa-check"></i> High fat percentage (6.5% - 8.5%) yielding higher milk price per litre</li>
+                                <li><i class="fa-solid fa-check"></i> Prominent breeds: Murrah, Surti, Jaffarabadi, Mehsana, Pandharpuri</li>
+                                <li><i class="fa-solid fa-check"></i> Excellent longevity and disease resistance</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ecosystem Benefits: Farmers & Buyers -->
+                <div class="ecosystem-cards-grid">
+                    <div class="ecosystem-card">
+                        <div class="eco-badge eco-farmer"><i class="fa-solid fa-wheat-awn"></i> FOR FARMERS / SELLERS</div>
+                        <h3>Direct Marketplace for Dairy Farmers</h3>
+                        <p>Empowering Karnataka farmers to sell livestock directly to genuine buyers without middlemen commission:</p>
+                        <ul class="eco-points">
+                            <li><i class="fa-solid fa-circle-check"></i> <strong>List Livestock:</strong> Upload livestock photo and details with ease.</li>
+                            <li><i class="fa-solid fa-circle-check"></i> <strong>Receive Estimated Value:</strong> Get fair market valuation based on breed, milk yield, age, and location.</li>
+                            <li><i class="fa-solid fa-circle-check"></i> <strong>Manage Listings:</strong> Edit asking price and livestock details anytime.</li>
+                            <li><i class="fa-solid fa-circle-check"></i> <strong>Track Sold Livestock:</strong> Dedicated listing history and sales tracking.</li>
+                        </ul>
+                    </div>
+
+                    <div class="ecosystem-card">
+                        <div class="eco-badge eco-buyer"><i class="fa-solid fa-cart-shopping"></i> FOR BUYERS</div>
+                        <h3>Transparent Sourcing for Dairy Buyers</h3>
+                        <p>Providing buyers, commercial dairy farms, and households with a reliable marketplace:</p>
+                        <ul class="eco-points">
+                            <li><i class="fa-solid fa-circle-check"></i> <strong>Browse Livestock:</strong> Explore available cows and buffaloes across Karnataka.</li>
+                            <li><i class="fa-solid fa-circle-check"></i> <strong>Filter Livestock:</strong> Filter by species (Cow/Buffalo), breed, district, and milk capacity.</li>
+                            <li><i class="fa-solid fa-circle-check"></i> <strong>View Details:</strong> Inspect photo, age, health condition, and location.</li>
+                            <li><i class="fa-solid fa-circle-check"></i> <strong>Purchase Livestock:</strong> Transparent Cash on Delivery orders with accurate delivery calculation.</li>
+                            <li><i class="fa-solid fa-circle-check"></i> <strong>Track Purchases:</strong> Permanent purchase history record.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Bottom CTA -->
+                <div class="home-bottom-card text-center">
+                    <h3>Get Started with Livestock Empowerment Ecosystem</h3>
+                    <p>Join thousands of farmers and buyers across Karnataka for transparent and reliable livestock trade.</p>
+                    <div class="cta-buttons">
+                        <button class="btn btn-primary" onclick="navigateTo('register')"><i class="fa-solid fa-user-plus"></i> Register Now</button>
+                        <button class="btn btn-secondary" onclick="navigateTo('login')"><i class="fa-solid fa-right-to-bracket"></i> Login</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ========================================================= -->
+        <!-- VIEW 2: ABOUT PAGE -->
+        <!-- ========================================================= -->
+        <section id="view-about" class="page-view">
+            <div class="page-header-banner">
+                <h1>About Livestock Empowerment Ecosystem</h1>
+                <p>A digital platform modernizing livestock trade across Karnataka.</p>
+            </div>
+
+            <div class="about-container">
+                <div class="about-card">
+                    <h3><i class="fa-solid fa-bullseye"></i> Our Objective</h3>
+                    <p>The <strong>Livestock Empowerment Ecosystem</strong> bridges the gap between rural dairy farmers and livestock buyers across Karnataka. By leveraging structured breed classification, comprehensive administrative location mapping (31 districts, 240 taluks, 30,753 villages), and fair market value estimation, we enable direct, middlemen-free livestock trade.</p>
+                </div>
+
+                <div class="about-card">
+                    <h3><i class="fa-solid fa-scale-balanced"></i> Key Highlights</h3>
+                    <div class="about-highlights-grid">
+                        <div class="highlight-item">
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <strong>Verified Breeds</strong>
+                            <span>22 native and high-yielding cow and buffalo breeds recognized across India.</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fa-solid fa-map"></i>
+                            <strong>Official LGD Karnataka Hierarchy</strong>
+                            <span>Complete administrative cascading covering every district, taluk, and village.</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fa-solid fa-truck"></i>
+                            <strong>Fair COD Delivery Calculation</strong>
+                            <span>Accurate GPS distance computation ensuring transparent transportation fees.</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fa-solid fa-clock-rotate-left"></i>
+                            <strong>15-Day Retention & History Protection</strong>
+                            <span>Strict sold-out retention policies and permanent transactional records for buyers and sellers.</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center mt-4">
+                    <button class="btn btn-primary" onclick="navigateTo('home')"><i class="fa-solid fa-arrow-left"></i> Back to Home</button>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ========================================================= -->
+        <!-- VIEW 3: SEPARATE REGISTRATION PAGE -->
+        <!-- ========================================================= -->
+        <section id="view-register" class="page-view">
+            <div class="auth-page-container">
+                <div class="auth-card">
+                    <div class="auth-header">
+                        <h2>REGISTER AS</h2>
+                        <p>Select your role to create your verified account.</p>
+                    </div>
+
+                    <!-- Role Selector (Farmer & Buyer Only - No Admin Registration) -->
+                    <div class="role-selector-pills">
+                        <button type="button" class="role-pill active" id="reg-role-farmer-btn" onclick="selectRegisterRole('farmer')">
+                            <i class="fa-solid fa-wheat-awn"></i> FARMER / SELLER
+                        </button>
+                        <button type="button" class="role-pill" id="reg-role-buyer-btn" onclick="selectRegisterRole('buyer')">
+                            <i class="fa-solid fa-cart-shopping"></i> BUYER
+                        </button>
+                    </div>
+
+                    <!-- Farmer & Buyer Registration Form -->
+                    <form id="form-user-register" onsubmit="handleUserRegistration(event)">
+                        <input type="hidden" id="form-reg-selected-role" value="farmer">
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label><i class="fa-solid fa-user"></i> Full Name <span class="required">*</span></label>
+                                <input type="text" id="form-reg-name" required placeholder="Enter full name (e.g. Basavaraju Gowda)">
+                            </div>
+                            <div class="form-group">
+                                <label><i class="fa-solid fa-phone"></i> Phone Number <span class="required">*</span></label>
+                                <input type="tel" id="form-reg-phone" required pattern="(\+91)?[6-9][0-9]{9}" placeholder="10-digit mobile number (+91XXXXXXXXXX)">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label><i class="fa-solid fa-envelope"></i> Email Address <span class="required">*</span></label>
+                            <input type="email" id="form-reg-email" required placeholder="e.g. name@gmail.com, buyer@yahoo.com, user@outlook.com">
+                            <small class="text-muted">Enter any valid email address (Gmail, Yahoo, Outlook, college, company, etc.). A single-use 6-digit verification code will be dispatched to your email.</small>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label><i class="fa-solid fa-lock"></i> Password <span class="required">*</span></label>
+                                <input type="password" id="form-reg-password" required minlength="6" placeholder="Minimum 6 characters">
+                            </div>
+                            <div class="form-group">
+                                <label><i class="fa-solid fa-shield-check"></i> Confirm Password <span class="required">*</span></label>
+                                <input type="password" id="form-reg-confirm-password" required placeholder="Re-enter password">
+                            </div>
+                        </div>
+
+                        <div class="form-divider">Karnataka Location Hierarchy</div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label><i class="fa-solid fa-flag"></i> State</label>
+                                <input type="text" value="Karnataka" readonly class="readonly-input">
+                            </div>
+                            <div class="form-group">
+                                <label><i class="fa-solid fa-map-location-dot"></i> District <span class="required">*</span></label>
+                                <select id="form-reg-district" required onchange="onRegDistrictChange()">
+                                    <option value="">Select District</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label><i class="fa-solid fa-building-columns"></i> Taluk <span class="required">*</span></label>
+                                <select id="form-reg-taluk" required onchange="onRegTalukChange()">
+                                    <option value="">Select District First</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label><i class="fa-solid fa-house-chimney-window"></i> Village <span class="required">*</span></label>
+                                <select id="form-reg-village" required>
+                                    <option value="">Select Taluk First</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group" style="flex:2;">
+                                <label><i class="fa-solid fa-location-arrow"></i> Detailed Address / Landmark <span class="required">*</span></label>
+                                <input type="text" id="form-reg-address" required placeholder="e.g. Main Dairy Road, House No 12">
+                            </div>
+                            <div class="form-group" style="flex:1;">
+                                <label><i class="fa-solid fa-signs-post"></i> Pincode <span class="required">*</span></label>
+                                <input type="text" id="form-reg-pincode" required pattern="[0-9]{6}" placeholder="6-digit PIN">
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block btn-lg" id="btn-submit-registration">
+                            <i class="fa-solid fa-paper-plane"></i> Send Email Verification OTP
+                        </button>
+                    </form>
+
+                    <!-- Registration Step 2: Email OTP Verification -->
+                    <div id="reg-otp-step-box" style="display:none;">
+                        <div class="alert-box alert-info mb-3">
+                            <i class="fa-solid fa-envelope-circle-check"></i>
+                            <div>Verification code sent to <strong id="reg-otp-email-display">user@example.com</strong>. Please check your inbox.</div>
+                        </div>
+
+                        <form id="form-verify-reg-otp" onsubmit="handleVerifyRegOtp(event)">
+                            <div class="form-group text-center">
+                                <label><i class="fa-solid fa-key"></i> 6-Digit Verification OTP <span class="required">*</span></label>
+                                <input type="text" id="reg-otp-input" maxlength="6" pattern="[0-9]{6}" required placeholder="• • • • • •" class="otp-styled-input">
+                                <small class="text-muted d-block mt-2">Code expires in 5 minutes. (Single-use)</small>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block btn-lg" id="btn-verify-reg-otp">
+                                <i class="fa-solid fa-user-check"></i> Verify & Activate Account
+                            </button>
+
+                            <div class="text-center mt-3">
+                                <button type="button" class="btn btn-link btn-sm" id="btn-resend-reg-otp" onclick="handleResendRegOtp()">
+                                    <i class="fa-solid fa-rotate-right"></i> Resend Verification Code
+                                </button>
+                                <span id="reg-resend-timer" class="text-muted" style="display:none; font-size:0.85rem;"></span>
+                            </div>
+                            <div class="text-center mt-2">
+                                <button type="button" class="btn btn-link btn-sm text-muted" onclick="backToRegForm()">
+                                    <i class="fa-solid fa-arrow-left"></i> Edit Registration Details
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="auth-footer text-center mt-3">
+                        <span>Already have an account?</span>
+                        <a href="javascript:void(0)" onclick="navigateTo('login')" class="auth-link">Login Here</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ========================================================= -->
+        <!-- VIEW 4: SEPARATE LOGIN PAGE -->
+        <!-- ========================================================= -->
+        <section id="view-login" class="page-view">
+            <div class="auth-page-container">
+                <div class="auth-card">
+                    <div class="auth-header">
+                        <h2>LOGIN AS</h2>
+                        <p>Select your registered role to sign in to your dashboard.</p>
+                    </div>
+
+                    <!-- Role Selector -->
+                    <div class="role-selector-pills">
+                        <button type="button" class="role-pill" id="login-role-admin-btn" onclick="selectLoginRole('admin')">
+                            <i class="fa-solid fa-user-shield"></i> ADMIN
+                        </button>
+                        <button type="button" class="role-pill active" id="login-role-farmer-btn" onclick="selectLoginRole('farmer')">
+                            <i class="fa-solid fa-wheat-awn"></i> FARMER / SELLER
+                        </button>
+                        <button type="button" class="role-pill" id="login-role-buyer-btn" onclick="selectLoginRole('buyer')">
+                            <i class="fa-solid fa-cart-shopping"></i> BUYER
+                        </button>
+                    </div>
+
+                    <!-- Farmer & Buyer Standard Login Form -->
+                    <form id="form-user-login" onsubmit="handleUserLogin(event)">
+                        <input type="hidden" id="form-login-selected-role" value="farmer">
+
+                        <div class="form-group">
+                            <label><i class="fa-solid fa-user-tag"></i> Email or Phone Number <span class="required">*</span></label>
+                            <input type="text" id="form-login-identifier" required placeholder="Enter registered email or phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label><i class="fa-solid fa-lock"></i> Password <span class="required">*</span></label>
+                            <input type="password" id="form-login-password" required placeholder="Enter your password">
+                        </div>
+
+                        <div class="d-flex justify-content-between align-items-center mb-2" style="display:flex; justify-content:flex-end;">
+                            <a href="javascript:void(0)" onclick="openForgotPasswordFlow()" class="auth-link" id="link-forgot-password" style="font-size:0.88rem; color:#2563eb; text-decoration:none;">
+                                <i class="fa-solid fa-key"></i> Forgot Password?
+                            </a>
+                        </div>
+
+                        <div class="role-status-notice mb-3" id="login-role-label">
+                            Signing in as: <strong id="login-role-text">FARMER / SELLER</strong>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block btn-lg" id="btn-submit-login">
+                            <i class="fa-solid fa-right-to-bracket"></i> Login
+                        </button>
+                    </form>
+
+                    <!-- Admin Step 1: Email + Password Credentials Form -->
+                    <form id="form-admin-login-step1" style="display:none;" onsubmit="handleAdminLoginStep1(event)">
+                        <div class="alert-box alert-info mb-3">
+                            <i class="fa-solid fa-shield-halved"></i>
+                            <div>Authorized Administrator Access. Two-factor email OTP authentication is enforced.</div>
+                        </div>
+
+                        <div class="form-group">
+                            <label><i class="fa-solid fa-envelope"></i> Administrator Email <span class="required">*</span></label>
+                            <input type="email" id="admin-login-email" required placeholder="admin@domain.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label><i class="fa-solid fa-lock"></i> Master Password <span class="required">*</span></label>
+                            <input type="password" id="admin-login-password" required placeholder="Enter administrator password">
+                        </div>
+
+                        <div class="d-flex justify-content-between align-items-center mb-2" style="display:flex; justify-content:flex-end;">
+                            <a href="javascript:void(0)" onclick="openForgotPasswordFlow()" class="auth-link" id="link-admin-forgot-password" style="font-size:0.88rem; color:#2563eb; text-decoration:none;">
+                                <i class="fa-solid fa-key"></i> Forgot Password?
+                            </a>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block btn-lg" id="btn-admin-submit-step1">
+                            <i class="fa-solid fa-paper-plane"></i> Verify Password & Send Admin OTP
+                        </button>
+                    </form>
+
+                    <!-- Admin Step 2: 2FA Email OTP Verification Form -->
+                    <form id="form-admin-login-step2" style="display:none;" onsubmit="handleAdminVerifyOtp(event)">
+                        <div class="alert-box alert-warning mb-3">
+                            <i class="fa-solid fa-key"></i>
+                            <div>Verification code sent to <strong id="admin-otp-target-email">rakshitham556@gmail.com</strong>. Please check your inbox.</div>
+                        </div>
+
+                        <div class="form-group text-center">
+                            <label><i class="fa-solid fa-shield-check"></i> 6-Digit Administrator OTP <span class="required">*</span></label>
+                            <input type="text" id="admin-otp-input" maxlength="6" pattern="[0-9]{6}" required placeholder="• • • • • •" class="otp-styled-input">
+                            <small class="text-muted d-block mt-2">Single-use OTP code expires in 5 minutes.</small>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block btn-lg" id="btn-admin-submit-step2">
+                            <i class="fa-solid fa-unlock-keyhole"></i> Authenticate & Open Console
+                        </button>
+
+                        <div class="text-center mt-3">
+                            <button type="button" class="btn btn-link btn-sm" id="btn-resend-admin-otp" onclick="handleResendAdminOtp()">
+                                <i class="fa-solid fa-rotate-right"></i> Resend Admin OTP
+                            </button>
+                            <span id="admin-resend-timer" class="text-muted" style="display:none; font-size:0.85rem;"></span>
+                        </div>
+                        <div class="text-center mt-2">
+                            <button type="button" class="btn btn-link btn-sm text-muted" onclick="backToAdminStep1()">
+                                <i class="fa-solid fa-arrow-left"></i> Re-enter Admin Password
+                            </button>
+                        </div>
+                    </form>
+
+                    <!-- Forgot Password Flow (Admin, Farmer & Buyer) -->
+                    <div id="box-forgot-password" style="display:none;">
+                        <div class="auth-sub-header mb-3 text-center">
+                            <h3 style="color:#0f172a; margin-bottom:4px;"><i class="fa-solid fa-key text-primary"></i> Reset Password</h3>
+                            <p style="font-size:0.88rem; color:#64748b;">Reset password for Admin, Farmer, or Buyer accounts.</p>
+                        </div>
+
+                        <!-- Step 1: Email Input -->
+                        <form id="form-forgot-step1" onsubmit="handleForgotRequestOtp(event)">
+                            <div class="form-group">
+                                <label><i class="fa-solid fa-envelope"></i> Registered Email Address <span class="required">*</span></label>
+                                <input type="email" id="forgot-email-input" required placeholder="Enter your registered email address">
+                                <small class="text-muted">A password reset verification OTP will be dispatched to your email.</small>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block btn-lg" id="btn-forgot-send-otp">
+                                <i class="fa-solid fa-paper-plane"></i> Send Password Reset OTP
+                            </button>
+                            <div class="text-center mt-3">
+                                <button type="button" class="btn btn-link btn-sm" onclick="cancelForgotPassword()">
+                                    <i class="fa-solid fa-arrow-left"></i> Back to Login
+                                </button>
+                            </div>
+                        </form>
+
+                        <!-- Step 2: OTP Verification -->
+                        <form id="form-forgot-step2" style="display:none;" onsubmit="handleForgotVerifyOtp(event)">
+                            <div class="alert-box alert-info mb-3">
+                                <i class="fa-solid fa-envelope-circle-check"></i>
+                                <div>Verification code sent to <strong id="forgot-otp-email-display">user@example.com</strong>. Please check your inbox.</div>
+                            </div>
+                            <div class="form-group text-center">
+                                <label><i class="fa-solid fa-shield-check"></i> 6-Digit Password Reset OTP <span class="required">*</span></label>
+                                <input type="text" id="forgot-otp-input" maxlength="6" pattern="[0-9]{6}" required placeholder="• • • • • •" class="otp-styled-input">
+                                <small class="text-muted d-block mt-2">Single-use OTP code expires in 5 minutes.</small>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block btn-lg" id="btn-forgot-verify-otp">
+                                <i class="fa-solid fa-check"></i> Verify OTP
+                            </button>
+                            <div class="text-center mt-3">
+                                <button type="button" class="btn btn-link btn-sm" id="btn-forgot-resend-otp" onclick="handleForgotResendOtp()">
+                                    <i class="fa-solid fa-rotate-right"></i> Resend Verification Code
+                                </button>
+                                <span id="forgot-resend-timer" class="text-muted" style="display:none; font-size:0.85rem;"></span>
+                            </div>
+                            <div class="text-center mt-2">
+                                <button type="button" class="btn btn-link btn-sm text-muted" onclick="backToForgotStep1()">
+                                    <i class="fa-solid fa-arrow-left"></i> Re-enter Email Address
+                                </button>
+                            </div>
+                        </form>
+
+                        <!-- Step 3: New Password & Confirm Password -->
+                        <form id="form-forgot-step3" style="display:none;" onsubmit="handleForgotResetPassword(event)">
+                            <div class="alert-box alert-info mb-3">
+                                <i class="fa-solid fa-lock"></i>
+                                <div>OTP verified! Enter your new password below.</div>
+                            </div>
+                            <div class="form-group">
+                                <label><i class="fa-solid fa-lock"></i> New Password <span class="required">*</span></label>
+                                <input type="password" id="forgot-new-password" required minlength="6" placeholder="Enter new password (min. 6 characters)">
+                            </div>
+                            <div class="form-group">
+                                <label><i class="fa-solid fa-shield-check"></i> Confirm New Password <span class="required">*</span></label>
+                                <input type="password" id="forgot-confirm-password" required minlength="6" placeholder="Re-enter new password">
+                            </div>
+                            <button type="submit" class="btn btn-success btn-block btn-lg" id="btn-forgot-submit-reset">
+                                <i class="fa-solid fa-floppy-disk"></i> Reset Password
+                            </button>
+                        </form>
+
+                        <!-- Step 4: Reset Success Card -->
+                        <div id="box-forgot-success" style="display:none; text-align:center; padding:1.5rem 0;">
+                            <div style="font-size:3rem; color:#16a34a; margin-bottom:1rem;"><i class="fa-solid fa-circle-check"></i></div>
+                            <h3 style="color:#0f172a; margin-bottom:0.5rem; font-size:1.15rem;">Password reset successfully. You can now login with your new password.</h3>
+                            <p style="color:#64748b; font-size:0.92rem; margin-bottom:1.5rem;">Your account password has been updated securely.</p>
+                            <button type="button" class="btn btn-primary btn-block btn-lg" onclick="cancelForgotPassword()">
+                                <i class="fa-solid fa-right-to-bracket"></i> Login with New Password
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="auth-footer text-center mt-3">
+                        <span>New user?</span>
+                        <a href="javascript:void(0)" onclick="navigateTo('register')" class="auth-link">Register Account</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ========================================================= -->
+        <!-- VIEW 5: FARMER DASHBOARD -->
+        <!-- ========================================================= -->
+        <section id="view-farmer-dash" class="page-view">
+            <div class="dashboard-layout">
+                <!-- Sidebar -->
+                <aside class="dash-sidebar">
+                    <div class="sidebar-user-card">
+                        <div class="sidebar-avatar"><i class="fa-solid fa-wheat-awn"></i></div>
+                        <h4 id="farmer-dash-username">Farmer Name</h4>
+                        <span class="badge-role role-farmer">FARMER / SELLER</span>
+                        <small id="farmer-dash-userloc" class="user-loc-text">Mandya, Karnataka</small>
+                    </div>
+
+                    <nav class="sidebar-nav">
+                        <button class="side-nav-btn active" id="fnav-overview" onclick="switchFarmerTab('overview')"><i class="fa-solid fa-gauge"></i> Overview</button>
+                        <button class="side-nav-btn" id="fnav-add" onclick="switchFarmerTab('add')"><i class="fa-solid fa-circle-plus"></i> Add Livestock</button>
+                        <button class="side-nav-btn" id="fnav-listings" onclick="switchFarmerTab('listings')"><i class="fa-solid fa-list-check"></i> My Listings</button>
+                        <button class="side-nav-btn" id="fnav-history" onclick="switchFarmerTab('history')"><i class="fa-solid fa-clock-rotate-left"></i> Listing History</button>
+                        <button class="side-nav-btn" id="fnav-sold" onclick="switchFarmerTab('sold')"><i class="fa-solid fa-handshake"></i> Sold Livestock</button>
+                        <button class="side-nav-btn" id="fnav-inquiries" onclick="switchFarmerTab('inquiries')"><i class="fa-solid fa-comments"></i> Contact Requests</button>
+                        <button class="side-nav-btn" id="fnav-profile" onclick="switchFarmerTab('profile')"><i class="fa-solid fa-id-card"></i> Profile</button>
+                        <button class="side-nav-btn btn-logout-side" onclick="handleLogout()"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</button>
+                    </nav>
+                </aside>
+
+                <!-- Main Content Area -->
+                <div class="dash-main">
+
+                    <!-- Farmer Sub-Tab 1: Overview -->
+                    <div class="farmer-subtab active" id="ftab-overview">
+                        <div class="dash-top-banner">
+                            <h2>Welcome, <span id="farmer-welcome-name">Farmer</span>!</h2>
+                            <p>Manage your cow and buffalo listings, check valuations, and review sale transactions.</p>
+                        </div>
+
+                        <div class="dash-metric-cards">
+                            <div class="metric-card">
+                                <div class="metric-icon icon-blue"><i class="fa-solid fa-cow"></i></div>
+                                <div class="metric-content">
+                                    <span class="metric-value" id="fmetric-total">0</span>
+                                    <span class="metric-label">Total Listings</span>
+                                </div>
+                            </div>
+                            <div class="metric-card">
+                                <div class="metric-icon icon-green"><i class="fa-solid fa-circle-check"></i></div>
+                                <div class="metric-content">
+                                    <span class="metric-value" id="fmetric-available">0</span>
+                                    <span class="metric-label">Available for Sale</span>
+                                </div>
+                            </div>
+                            <div class="metric-card">
+                                <div class="metric-icon icon-orange"><i class="fa-solid fa-handshake"></i></div>
+                                <div class="metric-content">
+                                    <span class="metric-value" id="fmetric-sold">0</span>
+                                    <span class="metric-label">Sold Livestock</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="action-banner-card mt-4">
+                            <div class="action-banner-text">
+                                <h3>Have a Cow or Buffalo to Sell?</h3>
+                                <p>Upload a photo to automatically detect species and breed, estimate market value, and publish to buyers across Karnataka.</p>
+                            </div>
+                            <button class="btn btn-primary btn-lg" onclick="switchFarmerTab('add')"><i class="fa-solid fa-plus"></i> Add New Livestock</button>
+                        </div>
+
+                        <!-- Recent Active Listings Snippet -->
+                        <div class="card-container mt-4">
+                            <div class="card-header-flex">
+                                <h3>Active Livestock Listings</h3>
+                                <button class="btn btn-link" onclick="switchFarmerTab('listings')">View All</button>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="data-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Photo</th>
+                                            <th>Animal</th>
+                                            <th>Breed</th>
+                                            <th>Gender</th>
+                                            <th>Milk (L/day)</th>
+                                            <th>Asking Price</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="farmer-recent-tbody">
+                                        <tr><td colspan="7" class="text-center">Loading listings...</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Farmer Sub-Tab 2: Add Livestock (Strict Workflow) -->
+                    <div class="farmer-subtab" id="ftab-add">
+                        <div class="section-title-wrap">
+                            <h2>Add Livestock Listing</h2>
+                            <p>Follow the step-by-step workflow: Upload photo, review detection, provide milk & location details, predict price, and publish.</p>
+                        </div>
+
+                        <div class="studio-workflow-grid">
+                            <!-- Step 1: Photo Upload & AI Detection -->
+                            <div class="studio-step-card">
+                                <div class="step-header">
+                                    <span class="step-badge">STEP 1</span>
+                                    <h3>Capture or Upload Livestock Photo</h3>
+                                </div>
+
+                                <!-- Photo Source Switcher Tabs -->
+                                <div class="photo-source-switcher mb-3">
+                                    <button type="button" class="btn-source-tab active" id="tab-source-camera" onclick="switchPhotoSource('camera')">
+                                        <i class="fa-solid fa-camera"></i> Live Camera (Rear)
+                                    </button>
+                                    <button type="button" class="btn-source-tab" id="tab-source-gallery" onclick="switchPhotoSource('gallery')">
+                                        <i class="fa-solid fa-cloud-arrow-up"></i> Upload from Gallery
+                                    </button>
+                                </div>
+
+                                <!-- Live Camera Container -->
+                                <div id="farmer-camera-wrapper" class="farmer-camera-wrapper">
+                                    <!-- Permission / Localhost Guidance Notice (Appears only if browser blocks unencrypted IP) -->
+                                    <div id="camera-permission-alert" style="display:none;" class="mb-2"></div>
+
+                                    <!-- Live Camera Viewfinder -->
+                                    <div id="farmer-camera-viewfinder" class="farmer-camera-viewfinder">
+                                        <div class="camera-stream-box" id="camera-stream-box">
+                                            <video id="farmer-camera-video" autoplay playsinline muted></video>
+                                            <canvas id="farmer-camera-canvas" style="display:none;"></canvas>
+                                            <div class="camera-guideline-overlay">
+                                                <div class="guideline-corners">
+                                                    <span class="corner tl"></span><span class="corner tr"></span>
+                                                    <span class="corner bl"></span><span class="corner br"></span>
+                                                </div>
+                                                <div class="guideline-badge">
+                                                    <i class="fa-solid fa-expand"></i> Align full cow or buffalo inside frame
+                                                </div>
+                                            </div>
+                                            <div class="camera-live-indicator" id="camera-live-indicator-badge">
+                                                <span class="pulse-dot"></span>
+                                                <span id="camera-status-label">Live Camera Active</span>
+                                            </div>
+                                        </div>
+
+                                        <div class="camera-action-buttons mt-2">
+                                            <button type="button" class="btn btn-primary btn-block btn-camera-shutter" id="btn-camera-capture" onclick="captureLivePhoto()">
+                                                <i class="fa-solid fa-camera"></i> CAPTURE PHOTO
+                                            </button>
+                                            <div class="camera-aux-buttons mt-2">
+                                                <button type="button" class="btn btn-outline-secondary btn-sm" id="btn-camera-flip" onclick="flipCameraFacing()" title="Switch Front/Rear Camera">
+                                                    <i class="fa-solid fa-camera-rotate"></i> Flip Camera (Front/Rear)
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Captured Photo Review Container -->
+                                    <div id="farmer-camera-review" class="camera-review-box" style="display:none;">
+                                        <div class="preview-container">
+                                            <img id="farmer-captured-preview-img" src="" alt="Captured Livestock Photo">
+                                            <div class="captured-overlay-badge"><i class="fa-solid fa-check"></i> Photo Captured — Review Before Detection</div>
+                                        </div>
+                                        <div class="review-action-row mt-2" style="display:flex; gap:10px;">
+                                            <button type="button" class="btn btn-outline-secondary btn-block" id="btn-retake-photo" onclick="retakeLivePhoto()" style="flex:1;">
+                                                <i class="fa-solid fa-rotate-left"></i> Retake Photo
+                                            </button>
+                                            <button type="button" class="btn btn-primary btn-block" id="btn-confirm-live-detect" onclick="confirmAndDetectLivePhoto()" style="flex:1;">
+                                                <i class="fa-solid fa-magnifying-glass"></i> Confirm & Detect Details
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Gallery Upload Container -->
+                                <div id="farmer-gallery-wrapper" class="farmer-gallery-wrapper" style="display:none;">
+                                    <div class="dropzone" id="farmer-dropzone" onclick="triggerFarmerFileInput()">
+                                        <input type="file" id="farmer-image-file" accept="image/jpeg,image/png,image/webp" style="display:none;" onchange="handleFarmerImageChosen(event)">
+                                        <div class="dropzone-content" id="dropzone-placeholder">
+                                            <i class="fa-solid fa-cloud-arrow-up drop-icon"></i>
+                                            <h4>Click or Drag & Drop Photo Here</h4>
+                                            <p>Supported formats: JPG, JPEG, PNG, WEBP (Max 16MB)</p>
+                                        </div>
+                                        <div class="preview-container" id="farmer-img-preview-box" style="display:none;">
+                                            <img id="farmer-img-preview" src="" alt="Livestock Preview">
+                                            <button type="button" class="remove-img-btn" onclick="clearFarmerImage(event)"><i class="fa-solid fa-xmark"></i></button>
+                                        </div>
+                                    </div>
+
+                                    <div class="action-row mt-2" id="detect-action-row" style="display:none;">
+                                        <button type="button" class="btn btn-primary btn-block" id="btn-detect-image" onclick="runImageDetection()">
+                                            <i class="fa-solid fa-magnifying-glass"></i> DETECT DETAILS
+                                        </button>
+                                    </div>
+                                </div>
+
+                                <!-- Detection Status Box -->
+                                <div id="detection-status-box" class="detection-status-box" style="display:none;">
+                                    <!-- Rejection Banner -->
+                                    <div id="detection-rejection-banner" class="alert-box alert-danger" style="display:none;">
+                                        <i class="fa-solid fa-circle-exclamation"></i>
+                                        <div>
+                                            <h4 id="detection-rejection-title">No valid cow or buffalo detected. Please capture a clear livestock image.</h4>
+                                            <p id="detection-rejection-desc">Only genuine, clear images of a cow or buffalo are accepted. Humans, objects, other animals, blurry or incomplete images cannot proceed.</p>
+                                            <div class="mt-2">
+                                                <button type="button" class="btn btn-sm btn-outline-danger" onclick="retakeLivePhoto()"><i class="fa-solid fa-rotate-left"></i> Retake / Try Another Photo</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Success Detected Details -->
+                                    <div id="detection-success-card" class="detection-result-card" style="display:none;">
+                                        <div class="detect-header">
+                                            <span><i class="fa-solid fa-check-circle"></i> Detection Complete</span>
+                                        </div>
+                                        <div class="detect-grid">
+                                            <div class="detect-item">
+                                                <label>Animal Type</label>
+                                                <strong id="det-species">--</strong>
+                                            </div>
+                                            <div class="detect-item">
+                                                <label>Species Confidence</label>
+                                                <strong id="det-species-conf">--</strong>
+                                            </div>
+                                            <div class="detect-item">
+                                                <label>Breed</label>
+                                                <strong id="det-breed">--</strong>
+                                            </div>
+                                            <div class="detect-item">
+                                                <label>Breed Confidence</label>
+                                                <strong id="det-breed-conf">--</strong>
+                                            </div>
+                                            <div class="detect-item">
+                                                <label>Detected Gender</label>
+                                                <strong id="det-gender">--</strong>
+                                            </div>
+                                            <div class="detect-item">
+                                                <label>Gender Confidence</label>
+                                                <strong id="det-gender-conf">--</strong>
+                                            </div>
+                                        </div>
+
+                                        <div class="wait-instruction-box">
+                                            <i class="fa-solid fa-hand"></i>
+                                            <div>
+                                                <strong>AI Vision Completed</strong>
+                                                <p>Species, fine-grained breed, and gender automatically identified. Review details in Step 2, then click <strong>"PREDICT PRICE"</strong>.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Step 2: Details, Price Prediction & Publishing -->
+                            <div class="studio-step-card">
+                                <div class="step-header">
+                                    <span class="step-badge">STEP 2</span>
+                                    <h3>Livestock Details & Valuation</h3>
+                                </div>
+
+                                <form id="form-publish-livestock" onsubmit="handlePublishLivestock(event)">
+                                    <!-- Automatic Detected Gender (No manual entry) & Pregnancy -->
+                                    <div class="form-row">
+                                        <div class="form-group">
+                                            <label><i class="fa-solid fa-venus-mars"></i> Detected Gender</label>
+                                            <div class="readonly-badge-display" style="padding: 10px 14px; background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 6px; font-weight: 600; color: #1e293b;">
+                                                <span id="fdisplay-gender-text">--</span>
+                                                <input type="hidden" id="finput-gender" value="">
+                                            </div>
+                                        </div>
+                                        <div class="form-group" id="group-pregnancy">
+                                            <label><i class="fa-solid fa-baby"></i> Pregnancy <span class="required">*</span></label>
+                                            <select id="finput-pregnancy" onchange="onFarmerPregnancyChanged()">
+                                                <option value="No" selected>No</option>
+                                                <option value="Yes">Yes</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-row" id="row-pregnancy-month" style="display: none;">
+                                        <div class="form-group">
+                                            <label><i class="fa-solid fa-calendar-check"></i> Pregnancy Month <span class="required">*</span></label>
+                                            <select id="finput-pregnancy-month" onchange="onFarmerInputsChanged()">
+                                                <option value="1">Month 1</option>
+                                                <option value="2">Month 2</option>
+                                                <option value="3">Month 3</option>
+                                                <option value="4">Month 4</option>
+                                                <option value="5">Month 5</option>
+                                                <option value="6">Month 6</option>
+                                                <option value="7">Month 7</option>
+                                                <option value="8">Month 8</option>
+                                                <option value="9">Month 9</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-row" id="row-age">
+                                        <div class="form-group">
+                                            <label><i class="fa-solid fa-calendar-days"></i> Age (in years) <span class="required">*</span></label>
+                                            <input type="number" id="finput-age" step="0.5" min="0.5" max="20" placeholder="Enter age in years (e.g. 4.0)" required oninput="onFarmerInputsChanged()">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-row" id="row-lactation-calf">
+                                        <div class="form-group" id="group-lactation">
+                                            <label><i class="fa-solid fa-repeat"></i> Lactation Number <span class="required">*</span></label>
+                                            <select id="finput-lactation" onchange="onFarmerLactationChanged()">
+                                                <option value="1st" selected>1st</option>
+                                                <option value="2nd">2nd</option>
+                                                <option value="3rd">3rd</option>
+                                                <option value="4th">4th</option>
+                                                <option value="5th">5th</option>
+                                            </select>
+                                            <small class="text-muted">Parity stage of female cow or buffalo (1st to 5th)</small>
+                                        </div>
+                                        <div class="form-group" id="group-calf">
+                                            <label><i class="fa-solid fa-cow"></i> Calf Number <span class="required">*</span></label>
+                                            <select id="finput-calf" onchange="onFarmerInputsChanged()">
+                                                <option value="1st" selected>1st</option>
+                                                <option value="2nd">2nd</option>
+                                                <option value="3rd">3rd</option>
+                                                <option value="4th">4th</option>
+                                                <option value="5th">5th</option>
+                                            </select>
+                                            <small class="text-muted">Automatically matched to lactation number</small>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-row" id="row-milk">
+                                        <div class="form-group" id="group-milk">
+                                            <label><i class="fa-solid fa-bottle-water"></i> Milk Production (litres/day) <span class="required">*</span></label>
+                                            <input type="number" id="finput-milk" step="0.5" min="0" max="30" placeholder="Enter litres/day (1 to 30 L/day)" required oninput="onFarmerInputsChanged()">
+                                            <small class="text-muted" id="milk-help-text">Milk production for 1st lactation (Max 30 L/day)</small>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-divider">Karnataka Location Hierarchy</div>
+
+                                    <div class="form-row">
+                                        <div class="form-group">
+                                            <label><i class="fa-solid fa-map-location-dot"></i> District <span class="required">*</span></label>
+                                            <select id="finput-district" required onchange="onFarmerStudioDistrictChange()">
+                                                <option value="">Select District</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label><i class="fa-solid fa-building-columns"></i> Taluk <span class="required">*</span></label>
+                                            <select id="finput-taluk" required onchange="onFarmerStudioTalukChange()">
+                                                <option value="">Select District First</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label><i class="fa-solid fa-house-chimney-window"></i> Village <span class="required">*</span></label>
+                                        <select id="finput-village" required onchange="onFarmerInputsChanged()">
+                                            <option value="">Select Taluk First</option>
+                                        </select>
+                                    </div>
+
+                                    <!-- PREDICT PRICE BUTTON (Mandatory Click) -->
+                                    <div class="predict-btn-container mt-3">
+                                        <button type="button" class="btn btn-predict btn-block btn-lg" id="btn-predict-price" onclick="triggerFarmerPricePrediction()">
+                                            <i class="fa-solid fa-calculator"></i> PREDICT PRICE
+                                        </button>
+                                        <div class="validation-error-text" id="predict-val-error" style="display:none;"></div>
+                                    </div>
+
+                                    <!-- Price Result Card -->
+                                    <div id="predicted-price-result-box" class="price-result-box" style="display:none;">
+                                        <div class="price-result-header" style="display:flex; justify-content:space-between; align-items:center;">
+                                            <span><i class="fa-solid fa-chart-line"></i> AI-Estimated Fair Market Value</span>
+                                            <span id="predicted-confidence-badge" class="badge-confidence" style="font-size:0.75rem; padding:3px 8px; border-radius:12px; font-weight:600;"></span>
+                                        </div>
+                                        <div class="price-result-summary" id="price-result-summary-text">
+                                            <!-- Dynamically populated summary -->
+                                        </div>
+                                        <div class="price-big-display">
+                                            <span class="currency">₹</span>
+                                            <span class="amount" id="predicted-price-val">0</span>
+                                        </div>
+                                        <div class="price-range-text" id="predicted-price-range">
+                                            Calibrated Fair Market Range: ₹0 to ₹0
+                                        </div>
+                                        <div class="price-basis-note" id="predicted-price-basis" style="font-size: 0.78rem; color: #64748b; margin-top: 6px; line-height: 1.4;">
+                                        </div>
+
+                                        <div class="form-divider mt-3">Livestock Address for Pickup</div>
+
+                                        <div class="form-group">
+                                            <label><i class="fa-solid fa-location-arrow"></i> Complete Farm Address <span class="required">*</span></label>
+                                            <input type="text" id="finput-address" placeholder="Enter farm / household complete address" required>
+                                        </div>
+
+                                        <div class="form-row">
+                                            <div class="form-group">
+                                                <label><i class="fa-solid fa-signs-post"></i> Pincode <span class="required">*</span></label>
+                                                <input type="text" id="finput-pincode" pattern="[0-9]{6}" placeholder="6-digit PIN" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <label><i class="fa-solid fa-indian-rupee-sign"></i> Final Asking Price (₹) <span class="required">*</span></label>
+                                                <input type="number" id="finput-asking-price" required placeholder="Enter asking price">
+                                            </div>
+                                        </div>
+
+                                        <button type="submit" class="btn btn-primary btn-block btn-lg mt-3" id="btn-publish-livestock">
+                                            <i class="fa-solid fa-paper-plane"></i> PUBLISH LIVESTOCK
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Farmer Sub-Tab 3: My Listings (Active & Manageable) -->
+                    <div class="farmer-subtab" id="ftab-listings">
+                        <div class="card-header-flex">
+                            <div>
+                                <h2>My Active Listings</h2>
+                                <p>Manage your current available livestock listings.</p>
+                            </div>
+                            <button class="btn btn-primary" onclick="switchFarmerTab('add')"><i class="fa-solid fa-plus"></i> Add New Listing</button>
+                        </div>
+
+                        <div class="card-container mt-3">
+                            <div class="table-responsive">
+                                <table class="data-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Photo</th>
+                                            <th>Animal</th>
+                                            <th>Breed</th>
+                                            <th>Gender</th>
+                                            <th>Age</th>
+                                            <th>Milk (L/day)</th>
+                                            <th>Location</th>
+                                            <th>Price</th>
+                                            <th>Status</th>
+                                            <th>Actions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="farmer-listings-tbody">
+                                        <!-- Dynamically Populated -->
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div id="farmer-listings-pagination" class="pagination-wrapper mt-3"></div>
+                        </div>
+                    </div>
+
+                    <!-- Farmer Sub-Tab 4: Listing History (All Records) -->
+                    <div class="farmer-subtab" id="ftab-history">
+                        <div class="section-title-wrap">
+                            <h2>Listing History</h2>
+                            <p>Complete historical record of all livestock you have published on the platform (Available, Sold Out, and Removed).</p>
+                        </div>
+
+                        <div class="card-container">
+                            <div class="table-responsive">
+                                <table class="data-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Photo</th>
+                                            <th>Animal</th>
+                                            <th>Breed</th>
+                                            <th>Gender</th>
+                                            <th>Age</th>
+                                            <th>Milk</th>
+                                            <th>Location</th>
+                                            <th>Price</th>
+                                            <th>Published Date</th>
+                                            <th>Purchase Date</th>
+                                            <th>Total (COD)</th>
+                                            <th>Order Status</th>
+                                            <th>Delivery Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="farmer-history-tbody">
+                                        <!-- Dynamically Populated -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Farmer Sub-Tab 5: Sold Livestock -->
+                    <div class="farmer-subtab" id="ftab-sold">
+                        <div class="section-title-wrap">
+                            <h2>Sold Livestock</h2>
+                            <p>Livestock that have been purchased by buyers under Cash on Delivery.</p>
+                        </div>
+
+                        <div class="card-container">
+                            <div class="table-responsive">
+                                <table class="data-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Photo</th>
+                                            <th>Animal</th>
+                                            <th>Breed</th>
+                                            <th>Buyer Name</th>
+                                            <th>Buyer Phone</th>
+                                            <th>Delivery Location</th>
+                                            <th>Livestock Price</th>
+                                            <th>Total (COD)</th>
+                                            <th>Purchase Date</th>
+                                            <th>Order Status</th>
+                                            <th>Delivery Status</th>
+                                            <th>Notes / Proof</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="farmer-sold-tbody">
+                                        <!-- Dynamically Populated -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Farmer Sub-Tab 6: Inquiries & Contact Requests -->
+                    <div class="farmer-subtab" id="ftab-inquiries">
+                        <div class="section-title-wrap">
+                            <h2>Contact Requests</h2>
+                            <p>Buyer inquiries regarding your livestock listings.</p>
+                        </div>
+                        <div class="inquiry-list" id="farmer-inquiry-list">
+                            <!-- Populated -->
+                        </div>
+                    </div>
+
+                    <!-- Farmer Sub-Tab 7: Profile -->
+                    <div class="farmer-subtab" id="ftab-profile">
+                        <div class="section-title-wrap">
+                            <h2>Farmer Profile</h2>
+                            <p>Your registered farmer profile details in Karnataka.</p>
+                        </div>
+                        <div class="card-container profile-card-wrap">
+                            <div class="profile-row"><label>Full Name:</label> <span id="fprof-name">--</span></div>
+                            <div class="profile-row"><label>Role:</label> <span class="badge-role role-farmer">FARMER / SELLER</span></div>
+                            <div class="profile-row"><label>Email Address:</label> <span id="fprof-email">--</span></div>
+                            <div class="profile-row"><label>Phone Number:</label> <span id="fprof-phone">--</span></div>
+                            <div class="profile-row"><label>District:</label> <span id="fprof-district">--</span></div>
+                            <div class="profile-row"><label>Taluk:</label> <span id="fprof-taluk">--</span></div>
+                            <div class="profile-row"><label>Village:</label> <span id="fprof-village">--</span></div>
+                            <div class="profile-row"><label>Address:</label> <span id="fprof-address">--</span></div>
+                            <div class="profile-row"><label>Pincode:</label> <span id="fprof-pincode">--</span></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ========================================================= -->
+        <!-- VIEW 6: BUYER DASHBOARD & MARKETPLACE -->
+        <!-- ========================================================= -->
+        <section id="view-buyer-dash" class="page-view">
+            <div class="dashboard-layout">
+                <!-- Sidebar -->
+                <aside class="dash-sidebar">
+                    <div class="sidebar-user-card">
+                        <div class="sidebar-avatar avatar-buyer"><i class="fa-solid fa-cart-shopping"></i></div>
+                        <h4 id="buyer-dash-username">Buyer Name</h4>
+                        <span class="badge-role role-buyer">BUYER</span>
+                        <small id="buyer-dash-userloc" class="user-loc-text">Bengaluru Urban, Karnataka</small>
+                    </div>
+
+                    <nav class="sidebar-nav">
+                        <button class="side-nav-btn active" id="bnav-browse" onclick="switchBuyerTab('browse')"><i class="fa-solid fa-store"></i> Browse Livestock</button>
+                        <button class="side-nav-btn" id="bnav-history" onclick="switchBuyerTab('history')"><i class="fa-solid fa-clock-rotate-left"></i> Purchase History</button>
+                        <button class="side-nav-btn" id="bnav-purchased" onclick="switchBuyerTab('purchased')"><i class="fa-solid fa-truck-fast"></i> Purchased Livestock</button>
+                        <button class="side-nav-btn" id="bnav-inquiries" onclick="switchBuyerTab('inquiries')"><i class="fa-solid fa-comments"></i> My Inquiries</button>
+                        <button class="side-nav-btn" id="bnav-profile" onclick="switchBuyerTab('profile')"><i class="fa-solid fa-id-card"></i> Profile</button>
+                        <button class="side-nav-btn btn-logout-side" onclick="handleLogout()"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</button>
+                    </nav>
+                </aside>
+
+                <!-- Main Content Area -->
+                <div class="dash-main">
+
+                    <!-- Buyer Sub-Tab 1: Browse Available Livestock -->
+                    <div class="buyer-subtab active" id="btab-browse">
+                        <div class="dash-top-banner">
+                            <h2>Available Livestock Marketplace</h2>
+                            <p>Browse verified cows and buffaloes from farmers across Karnataka. Buy with Cash on Delivery and calculated distance transport.</p>
+                        </div>
+
+                        <!-- Filters Bar -->
+                        <div class="filter-card">
+                            <div class="filter-row">
+                                <div class="filter-group search-box">
+                                    <label><i class="fa-solid fa-magnifying-glass"></i> Search Breed / Location</label>
+                                    <input type="text" id="bfilter-search" placeholder="e.g. Murrah, Mandya, HF..." oninput="applyBuyerFilters()">
+                                </div>
+
+                                <div class="filter-group">
+                                    <label><i class="fa-solid fa-layer-group"></i> Animal Type</label>
+                                    <select id="bfilter-species" onchange="onBuyerSpeciesFilterChange()">
+                                        <option value="All">All Species (Cow & Buffalo)</option>
+                                        <option value="Cow">Cow (ಹಸು)</option>
+                                        <option value="Buffalo">Buffalo (ಎಮ್ಮೆ)</option>
+                                    </select>
+                                </div>
+
+                                <div class="filter-group">
+                                    <label><i class="fa-solid fa-dna"></i> Breed</label>
+                                    <select id="bfilter-breed" onchange="applyBuyerFilters()">
+                                        <option value="All">All Breeds</option>
+                                    </select>
+                                </div>
+
+                                <div class="filter-group">
+                                    <label><i class="fa-solid fa-location-dot"></i> District</label>
+                                    <select id="bfilter-district" onchange="applyBuyerFilters()">
+                                        <option value="All">All Districts</option>
+                                    </select>
+                                </div>
+
+                                <div class="filter-group">
+                                    <label><i class="fa-solid fa-bottle-water"></i> Min Milk (L/day)</label>
+                                    <input type="number" id="bfilter-min-milk" placeholder="e.g. 10" min="0" max="40" oninput="applyBuyerFilters()">
+                                </div>
+
+                                <div class="filter-group">
+                                    <label><i class="fa-solid fa-indian-rupee-sign"></i> Min Price (₹)</label>
+                                    <input type="number" id="bfilter-min-price" placeholder="e.g. 45000" step="5000" oninput="applyBuyerFilters()">
+                                </div>
+
+                                <div class="filter-group">
+                                    <label><i class="fa-solid fa-indian-rupee-sign"></i> Max Price (₹)</label>
+                                    <input type="number" id="bfilter-max-price" placeholder="e.g. 80000" step="5000" oninput="applyBuyerFilters()">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="section-header-flex mt-4 mb-3">
+                            <h3>Available Listings</h3>
+                            <span class="count-badge" id="buyer-listing-count">Showing 0 listings</span>
+                        </div>
+
+                        <!-- Marketplace Grid -->
+                        <div class="marketplace-cards-grid" id="buyer-marketplace-grid">
+                            <!-- Populated dynamically -->
+                        </div>
+
+                        <!-- Buyer Marketplace Pagination -->
+                        <div id="buyer-marketplace-pagination" class="pagination-wrapper mt-4"></div>
+                    </div>
+
+                    <!-- Buyer Sub-Tab 2: Purchase History (Survives Admin Removal) -->
+                    <div class="buyer-subtab" id="btab-history">
+                        <div class="section-title-wrap">
+                            <h2>Purchase History</h2>
+                            <p>Permanent record of all your livestock purchases under Cash on Delivery.</p>
+                        </div>
+
+                        <div class="card-container">
+                            <div class="table-responsive">
+                                <table class="data-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Photo</th>
+                                            <th>Animal Type</th>
+                                            <th>Breed</th>
+                                            <th>Gender</th>
+                                            <th>Seller (Farmer)</th>
+                                            <th>FROM Location</th>
+                                            <th>TO Location</th>
+                                            <th>Purchase Date</th>
+                                            <th>Livestock Price</th>
+                                            <th>Total Amount (COD)</th>
+                                            <th>Payment Method</th>
+                                            <th>Order Status</th>
+                                            <th>Delivery Status</th>
+                                            <th>Actions / Review</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="buyer-history-tbody">
+                                        <!-- Dynamically populated -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Buyer Sub-Tab 3: Purchased Livestock -->
+                    <div class="buyer-subtab" id="btab-purchased">
+                        <div class="section-title-wrap">
+                            <h2>Purchased Livestock</h2>
+                            <p>Livestock confirmed and scheduled for Cash on Delivery.</p>
+                        </div>
+                        <div class="purchased-livestock-cards-grid" id="buyer-purchased-grid">
+                            <!-- Dynamically populated -->
+                        </div>
+                    </div>
+
+                    <!-- Buyer Sub-Tab 4: Inquiries -->
+                    <div class="buyer-subtab" id="btab-inquiries">
+                        <div class="section-title-wrap">
+                            <h2>My Inquiries</h2>
+                            <p>Messages and contact requests sent to farmers.</p>
+                        </div>
+                        <div class="inquiry-list" id="buyer-inquiry-list">
+                            <!-- Populated -->
+                        </div>
+                    </div>
+
+                    <!-- Buyer Sub-Tab 5: Profile -->
+                    <div class="buyer-subtab" id="btab-profile">
+                        <div class="section-title-wrap">
+                            <h2>Buyer Profile</h2>
+                            <p>Your registered buyer profile and default delivery location in Karnataka.</p>
+                        </div>
+                        <div class="card-container profile-card-wrap">
+                            <div class="profile-row"><label>Full Name:</label> <span id="bprof-name">--</span></div>
+                            <div class="profile-row"><label>Role:</label> <span class="badge-role role-buyer">BUYER</span></div>
+                            <div class="profile-row"><label>Email Address:</label> <span id="bprof-email">--</span></div>
+                            <div class="profile-row"><label>Phone Number:</label> <span id="bprof-phone">--</span></div>
+                            <div class="profile-row"><label>District:</label> <span id="bprof-district">--</span></div>
+                            <div class="profile-row"><label>Taluk:</label> <span id="bprof-taluk">--</span></div>
+                            <div class="profile-row"><label>Village:</label> <span id="bprof-village">--</span></div>
+                            <div class="profile-row"><label>Delivery Address:</label> <span id="bprof-address">--</span></div>
+                            <div class="profile-row"><label>Pincode:</label> <span id="bprof-pincode">--</span></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- ========================================================= -->
+        <!-- VIEW 7: ADMIN DASHBOARD (SINGLE ADMIN EXCLUSIVE) -->
+        <!-- ========================================================= -->
+        <section id="view-admin-dash" class="page-view">
+            <div class="dashboard-layout">
+                <!-- Sidebar -->
+                <aside class="dash-sidebar admin-sidebar">
+                    <div class="sidebar-user-card">
+                        <div class="sidebar-avatar avatar-admin"><i class="fa-solid fa-user-shield"></i></div>
+                        <h4>Rakshitha M</h4>
+                        <span class="badge-role role-admin">ADMINISTRATOR</span>
+                        <small class="user-loc-text">System Admin</small>
+                    </div>
+
+                    <nav class="sidebar-nav">
+                        <button class="side-nav-btn active" id="anav-overview" onclick="switchAdminTab('overview')"><i class="fa-solid fa-chart-pie"></i> Overview</button>
+                        <button class="side-nav-btn" id="anav-farmers" onclick="switchAdminTab('farmers')"><i class="fa-solid fa-wheat-awn"></i> Farmers</button>
+                        <button class="side-nav-btn" id="anav-buyers" onclick="switchAdminTab('buyers')"><i class="fa-solid fa-cart-shopping"></i> Buyers</button>
+                        <button class="side-nav-btn" id="anav-livestock" onclick="switchAdminTab('livestock')"><i class="fa-solid fa-cow"></i> Livestock Management</button>
+                        <button class="side-nav-btn" id="anav-purchases" onclick="switchAdminTab('purchases')"><i class="fa-solid fa-receipt"></i> Purchases (COD)</button>
+                        <button class="side-nav-btn" id="anav-soldout" onclick="switchAdminTab('soldout')"><i class="fa-solid fa-shield-halved"></i> Sold Out (15-Day Rule)</button>
+                        <button class="side-nav-btn" id="anav-contacts" onclick="switchAdminTab('contacts')"><i class="fa-solid fa-envelope"></i> Contact Requests</button>
+                        <button class="side-nav-btn btn-logout-side" onclick="handleLogout()"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</button>
+                    </nav>
+                </aside>
+
+                <!-- Main Content Area -->
+                <div class="dash-main">
+
+                    <!-- Admin Sub-Tab 1: Overview -->
+                    <div class="admin-subtab active" id="atab-overview">
+                        <div class="dash-top-banner">
+                            <h2>Welcome, Administrator Rakshitha M</h2>
+                            <p>Livestock Empowerment Ecosystem Management Console. Monitor registered users, marketplace listings, and transactions.</p>
+                        </div>
+
+                        <div class="admin-metric-grid">
+                            <div class="metric-card">
+                                <div class="metric-icon icon-farmers"><i class="fa-solid fa-wheat-awn"></i></div>
+                                <div class="metric-content">
+                                    <span class="metric-value" id="ametric-farmers">0</span>
+                                    <span class="metric-label">Total Farmers</span>
+                                </div>
+                            </div>
+                            <div class="metric-card">
+                                <div class="metric-icon icon-buyers"><i class="fa-solid fa-cart-shopping"></i></div>
+                                <div class="metric-content">
+                                    <span class="metric-value" id="ametric-buyers">0</span>
+                                    <span class="metric-label">Total Buyers</span>
+                                </div>
+                            </div>
+                            <div class="metric-card">
+                                <div class="metric-icon icon-livestock"><i class="fa-solid fa-cow"></i></div>
+                                <div class="metric-content">
+                                    <span class="metric-value" id="ametric-livestock">0</span>
+                                    <span class="metric-label">Total Livestock</span>
+                                </div>
+                            </div>
+                            <div class="metric-card">
+                                <div class="metric-icon icon-green"><i class="fa-solid fa-circle-check"></i></div>
+                                <div class="metric-content">
+                                    <span class="metric-value" id="ametric-available">0</span>
+                                    <span class="metric-label">Available Listings</span>
+                                </div>
+                            </div>
+                            <div class="metric-card">
+                                <div class="metric-icon icon-orange"><i class="fa-solid fa-lock"></i></div>
+                                <div class="metric-content">
+                                    <span class="metric-value" id="ametric-sold">0</span>
+                                    <span class="metric-label">Sold Out Listings</span>
+                                </div>
+                            </div>
+                            <div class="metric-card">
+                                <div class="metric-icon icon-orders"><i class="fa-solid fa-truck"></i></div>
+                                <div class="metric-content">
+                                    <span class="metric-value" id="ametric-purchases">0</span>
+                                    <span class="metric-label">Total Purchases</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-container mt-4">
+                            <div class="card-header-flex">
+                                <h3>Recent System Purchases</h3>
+                                <button class="btn btn-link" onclick="switchAdminTab('purchases')">View All</button>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="data-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Order #</th>
+                                            <th>Buyer</th>
+                                            <th>Farmer</th>
+                                            <th>Breed</th>
+                                            <th>Total (COD)</th>
+                                            <th>Purchase Date</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="admin-recent-purchases-tbody">
+                                        <!-- Dynamically Populated -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Admin Sub-Tab 2: Farmers -->
+                    <div class="admin-subtab" id="atab-farmers">
+                        <div class="section-title-wrap">
+                            <h2>Registered Farmers</h2>
+                            <p>List of all verified dairy farmers on the platform.</p>
+                        </div>
+                        <div class="card-container">
+                            <div class="table-responsive">
+                                <table class="data-table">
+                                    <thead>
+                                        <tr>
+                                            <th>ID</th>
+                                            <th>Name</th>
+                                            <th>Phone</th>
+                                            <th>Email</th>
+                                            <th>District</th>
+                                            <th>Taluk</th>
+                                            <th>Village</th>
+                                            <th>Total Listed</th>
+                                            <th>Sold Count</th>
+                                            <th>Registration Date</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="admin-farmers-tbody"></tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Admin Sub-Tab 3: Buyers -->
+                    <div class="admin-subtab" id="atab-buyers">
+                        <div class="section-title-wrap">
+                            <h2>Registered Buyers</h2>
+                            <p>List of all registered livestock buyers on the platform.</p>
+                        </div>
+                        <div class="card-container">
+                            <div class="table-responsive">
+                                <table class="data-table">
+                                    <thead>
+                                        <tr>
+                                            <th>ID</th>
+                                            <th>Name</th>
+                                            <th>Phone</th>
+                                            <th>Email</th>
+                                            <th>District</th>
+                                            <th>Taluk</th>
+                                            <th>Village</th>
+                                            <th>Total Purchases</th>
+                                            <th>Registration Date</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="admin-buyers-tbody"></tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Admin Sub-Tab 4: Livestock Management -->
+                    <div class="admin-subtab" id="atab-livestock">
+                        <div class="section-title-wrap">
+                            <h2>Livestock Management</h2>
+                            <p>Filter and monitor all livestock listings across Karnataka.</p>
+                        </div>
+
+                        <!-- Status Filter Buttons -->
+                        <div class="admin-filter-pills mb-3">
+                            <button class="filter-pill active" onclick="filterAdminLivestock('all', this)">All</button>
+                            <button class="filter-pill" onclick="filterAdminLivestock('Available', this)">Available</button>
+                            <button class="filter-pill" onclick="filterAdminLivestock('sold_less_15', this)">Sold Out (&lt; 15 Days)</button>
+                            <button class="filter-pill" onclick="filterAdminLivestock('sold_eligible_15', this)">Eligible for Removal (&ge; 15 Days)</button>
+                            <button class="filter-pill" onclick="filterAdminLivestock('REMOVED', this)">Removed</button>
+                        </div>
+
+                        <div class="card-container">
+                            <div class="table-responsive">
+                                <table class="data-table">
+                                    <thead>
+                                        <tr>
+                                            <th>ID</th>
+                                            <th>Photo</th>
+                                            <th>Animal</th>
+                                            <th>Breed</th>
+                                            <th>Gender</th>
+                                            <th>Age</th>
+                                            <th>Milk</th>
+                                            <th>Farmer</th>
+                                            <th>Location</th>
+                                            <th>Price</th>
+                                            <th>Published Date</th>
+                                            <th>Purchase Date</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="admin-livestock-tbody"></tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Admin Sub-Tab 5: Purchases (COD) -->
+                    <div class="admin-subtab" id="atab-purchases">
+                        <div class="section-title-wrap">
+                            <h2>Cash on Delivery Transactions</h2>
+                            <p>All recorded purchase orders under Cash on Delivery with zero delivery fees.</p>
+                        </div>
+                        <div class="card-container">
+                            <div class="table-responsive">
+                                <table class="data-table">
+                                    <thead>
+                                        <tr>
+                                            <th>Order #</th>
+                                            <th>Buyer</th>
+                                            <th>Farmer</th>
+                                            <th>Animal & Breed</th>
+                                            <th>Price</th>
+                                            <th>Total (COD)</th>
+                                            <th>Purchase Date</th>
+                                            <th>Order Status</th>
+                                            <th>Delivery Status</th>
+                                            <th>Proof / Details</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="admin-purchases-tbody"></tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Admin Sub-Tab 6: Sold Out Management (15-Day Rule) -->
+                    <div class="admin-subtab" id="atab-soldout">
+                        <div class="section-title-wrap">
+                            <h2>15-Day Sold-Out Listing Management</h2>
+                            <p>Sold out listings must remain visible for 15 days following the purchase date. The administrator can soft-delete listings only after 15 days have elapsed. Historical transaction data remains preserved.</p>
+                        </div>
+
+                        <div class="card-container">
+                            <div class="table-responsive">
+                                <table class="data-table">
+                                    <thead>
+                                        <tr>
+                                            <th>ID</th>
+                                            <th>Photo</th>
+                                            <th>Animal / Breed</th>
+                                            <th>Farmer</th>
+                                            <th>Buyer</th>
+                                            <th>Purchase Date</th>
+                                            <th>Days Elapsed</th>
+                                            <th>Eligible Removal Date</th>
+                                            <th>Status</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="admin-soldout-tbody"></tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Admin Sub-Tab 7: Contacts -->
+                    <div class="admin-subtab" id="atab-contacts">
+                        <div class="section-title-wrap">
+                            <h2>Contact Inquiries</h2>
+                            <p>Buyer inquiries sent to farmers regarding livestock.</p>
+                        </div>
+                        <div class="card-container">
+                            <div class="table-responsive">
+                                <table class="data-table">
+                                    <thead>
+                                        <tr>
+                                            <th>ID</th>
+                                            <th>Buyer Name</th>
+                                            <th>Buyer Phone</th>
+                                            <th>Farmer Name</th>
+                                            <th>Message</th>
+                                            <th>Date</th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="admin-contacts-tbody"></tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- ========================================================= -->
+    <!-- MODALS -->
+    <!-- ========================================================= -->
+
+    <!-- 1. BUY NOW MODAL (ZERO DELIVERY CHARGES - CASH ON DELIVERY) -->
+    <div class="modal-overlay" id="modal-buy-now" style="display:none;">
+        <div class="modal-card">
+            <button type="button" class="modal-close-btn" onclick="closeBuyModal()"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-header">
+                <h3><i class="fa-solid fa-cart-shopping"></i> Livestock Purchase (Cash on Delivery)</h3>
+                <p>Zero delivery charges across Karnataka. Pay asking price upon delivery.</p>
+            </div>
+            <div class="modal-body" id="buy-modal-body">
+                <!-- Dynamically populated -->
+            </div>
+        </div>
+    </div>
+
+    <!-- 2. ORDER CANCELLATION MODAL -->
+    <div class="modal-overlay" id="modal-cancel-order" style="display:none;">
+        <div class="modal-card">
+            <button type="button" class="modal-close-btn" onclick="closeCancelOrderModal()"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-header">
+                <h3><i class="fa-solid fa-ban text-danger"></i> Cancel Order</h3>
+                <p>Please select the reason for cancelling this order. The listing will be returned to the available marketplace.</p>
+            </div>
+            <form id="form-cancel-order" onsubmit="submitCancelOrder(event)">
+                <input type="hidden" id="cancel-order-id">
+                <div class="form-group">
+                    <label>Cancellation Reason <span class="required">*</span></label>
+                    <select id="cancel-reason-select" required onchange="onCancelReasonChanged()">
+                        <option value="">Select a reason</option>
+                        <option value="Changed mind">Changed mind</option>
+                        <option value="Found alternate livestock">Found alternate livestock</option>
+                        <option value="Seller unresponsive">Seller unresponsive</option>
+                        <option value="Incorrect price">Incorrect price</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group" id="cancel-explanation-group" style="display:none;">
+                    <label>Written Explanation <span class="required">*</span></label>
+                    <textarea id="cancel-explanation-text" rows="3" placeholder="Please explain why you are cancelling..."></textarea>
+                </div>
+                <div class="modal-action-row mt-3">
+                    <button type="button" class="btn btn-secondary" onclick="closeCancelOrderModal()">Keep Order</button>
+                    <button type="submit" class="btn btn-danger" id="btn-submit-cancel-order"><i class="fa-solid fa-ban"></i> Confirm Cancellation</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- 3. MARK AS PURCHASED MODAL (PROOF PHOTO REQUIRED) -->
+    <div class="modal-overlay" id="modal-mark-purchased" style="display:none;">
+        <div class="modal-card">
+            <button type="button" class="modal-close-btn" onclick="closeMarkPurchasedModal()"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-header">
+                <h3><i class="fa-solid fa-camera text-primary"></i> Confirm Purchase & Upload Proof</h3>
+                <p>Upload a clear proof photo of the livestock delivered at your location to finalize purchase.</p>
+            </div>
+            <form id="form-mark-purchased" onsubmit="submitMarkPurchased(event)">
+                <input type="hidden" id="purchased-order-id">
+                
+                <div class="dropzone mb-3" id="proof-dropzone" onclick="triggerProofFileInput()">
+                    <input type="file" id="proof-photo-file" accept="image/jpeg,image/png,image/webp" style="display:none;" required onchange="handleProofPhotoChosen(event)">
+                    <div class="dropzone-content" id="proof-dropzone-placeholder">
+                        <i class="fa-solid fa-cloud-arrow-up drop-icon"></i>
+                        <h4>Click or Drag & Drop Delivery Proof Photo</h4>
+                        <p>JPG, PNG, or WEBP photo of the livestock delivered</p>
+                    </div>
+                    <div class="preview-container" id="proof-img-preview-box" style="display:none;">
+                        <img id="proof-img-preview" src="" alt="Delivery Proof Preview" style="max-height:200px; width:auto; border-radius:8px;">
+                        <button type="button" class="remove-img-btn" onclick="clearProofImage(event)"><i class="fa-solid fa-xmark"></i></button>
+                    </div>
+                </div>
+
+                <div class="alert-box alert-info">
+                    <i class="fa-solid fa-shield-check"></i>
+                    <div>This will transition the order to <strong>PURCHASED</strong> and delivery status to <strong>DELIVERED</strong>.</div>
+                </div>
+
+                <div class="modal-action-row mt-3">
+                    <button type="button" class="btn btn-secondary" onclick="closeMarkPurchasedModal()">Cancel</button>
+                    <button type="submit" class="btn btn-primary" id="btn-submit-mark-purchased">
+                        <i class="fa-solid fa-check-double"></i> Upload Proof & Complete Purchase
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- 4. REJECT DELIVERY MODAL -->
+    <div class="modal-overlay" id="modal-reject-delivery" style="display:none;">
+        <div class="modal-card">
+            <button type="button" class="modal-close-btn" onclick="closeRejectDeliveryModal()"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-header">
+                <h3><i class="fa-solid fa-triangle-exclamation text-danger"></i> Reject Livestock Delivery</h3>
+                <p>Provide a clear reason for rejecting the livestock delivery. Both you and the seller will be notified.</p>
+            </div>
+            <form id="form-reject-delivery" onsubmit="submitRejectDelivery(event)">
+                <input type="hidden" id="reject-order-id">
+                <div class="form-group">
+                    <label>Rejection Reason <span class="required">*</span></label>
+                    <select id="reject-reason-select" required>
+                        <option value="">Select rejection reason</option>
+                        <option value="Animal does not match listing description">Animal does not match listing description</option>
+                        <option value="Animal has health or injury issues">Animal has health or injury issues</option>
+                        <option value="Incorrect breed or age">Incorrect breed or age</option>
+                        <option value="Transport / delivery condition unacceptable">Transport / delivery condition unacceptable</option>
+                        <option value="Buyer unavailable / location mismatch">Buyer unavailable / location mismatch</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Specific Details / Explanation <span class="required">*</span></label>
+                    <textarea id="reject-details-text" rows="3" required placeholder="Describe the reason for rejection in detail..."></textarea>
+                </div>
+                <div class="modal-action-row mt-3">
+                    <button type="button" class="btn btn-secondary" onclick="closeRejectDeliveryModal()">Cancel</button>
+                    <button type="submit" class="btn btn-danger" id="btn-submit-reject-delivery"><i class="fa-solid fa-xmark"></i> Confirm Delivery Rejection</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- 5. RATINGS & REVIEWS MODAL -->
+    <div class="modal-overlay" id="modal-order-review" style="display:none;">
+        <div class="modal-card">
+            <button type="button" class="modal-close-btn" onclick="closeReviewModal()"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-header">
+                <h3><i class="fa-solid fa-star text-warning"></i> Rate & Review Order</h3>
+                <p>Share your feedback about the seller and livestock experience.</p>
+            </div>
+            <form id="form-order-review" onsubmit="submitOrderReview(event)">
+                <input type="hidden" id="review-order-id">
+                <div class="form-group text-center">
+                    <label class="d-block mb-2">Overall Rating (1 to 5 Stars) <span class="required">*</span></label>
+                    <div class="star-rating-widget" id="star-rating-widget">
+                        <i class="fa-solid fa-star star-btn" data-rating="1" onclick="setReviewRating(1)"></i>
+                        <i class="fa-solid fa-star star-btn" data-rating="2" onclick="setReviewRating(2)"></i>
+                        <i class="fa-solid fa-star star-btn" data-rating="3" onclick="setReviewRating(3)"></i>
+                        <i class="fa-solid fa-star star-btn" data-rating="4" onclick="setReviewRating(4)"></i>
+                        <i class="fa-solid fa-star star-btn" data-rating="5" onclick="setReviewRating(5)"></i>
+                    </div>
+                    <input type="hidden" id="review-rating-value" value="5" required>
+                    <span id="review-rating-label" class="rating-text-label mt-1 d-block font-weight-bold">5 Stars - Excellent</span>
+                </div>
+                <div class="form-group">
+                    <label>Written Review / Comments (Optional)</label>
+                    <textarea id="review-text-input" rows="3" placeholder="Describe the health of the animal, seller communication, etc."></textarea>
+                </div>
+                <div class="modal-action-row mt-3">
+                    <button type="button" class="btn btn-secondary" onclick="closeReviewModal()">Cancel</button>
+                    <button type="submit" class="btn btn-primary" id="btn-submit-review"><i class="fa-solid fa-paper-plane"></i> Submit Feedback</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- 6. VIEW PROOF PHOTO MODAL -->
+    <div class="modal-overlay" id="modal-view-proof" style="display:none;">
+        <div class="modal-card text-center" style="max-width:650px;">
+            <button type="button" class="modal-close-btn" onclick="closeViewProofModal()"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-header">
+                <h3><i class="fa-solid fa-camera"></i> Delivery Verification Proof</h3>
+            </div>
+            <div class="modal-body p-3">
+                <img id="view-proof-img" src="" alt="Delivery Proof" style="max-width:100%; max-height:450px; border-radius:8px; object-fit:contain; box-shadow:0 4px 6px -1px rgba(0,0,0,0.1);">
+                <div class="mt-3 text-muted" id="view-proof-caption"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 7. FARMER EDIT LISTING MODAL -->
+    <div class="modal-overlay" id="modal-edit-listing" style="display:none;">
+        <div class="modal-card">
+            <button type="button" class="modal-close-btn" onclick="closeEditModal()"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-header">
+                <h3><i class="fa-solid fa-pen-to-square"></i> Edit Livestock Listing</h3>
+            </div>
+            <form id="form-edit-listing" onsubmit="handleSaveEditedListing(event)">
+                <input type="hidden" id="edit-listing-id">
+                <div class="form-group">
+                    <label>Asking Price (₹) <span class="required">*</span></label>
+                    <input type="number" id="edit-asking-price" required>
+                </div>
+                <div class="form-group">
+                    <label>Daily Milk Production (litres/day)</label>
+                    <input type="number" id="edit-milk-production" step="0.5" min="0">
+                </div>
+                <div class="form-group">
+                    <label>Farm Address / Landmark</label>
+                    <input type="text" id="edit-address">
+                </div>
+                <div class="form-group">
+                    <label>Pincode</label>
+                    <input type="text" id="edit-pincode" pattern="[0-9]{6}">
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Save Changes</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- 8. CONTACT FARMER MODAL -->
+    <div class="modal-overlay" id="modal-contact-farmer" style="display:none;">
+        <div class="modal-card">
+            <button type="button" class="modal-close-btn" onclick="closeContactModal()"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-header">
+                <h3><i class="fa-solid fa-envelope"></i> Send Inquiry to Farmer</h3>
+            </div>
+            <form id="form-send-inquiry" onsubmit="handleSendInquiry(event)">
+                <input type="hidden" id="inquiry-listing-id">
+                <div class="form-group">
+                    <label>Farmer Name</label>
+                    <input type="text" id="inquiry-farmer-name" readonly class="readonly-input">
+                </div>
+                <div class="form-group">
+                    <label>Your Message / Question <span class="required">*</span></label>
+                    <textarea id="inquiry-message" rows="4" required placeholder="Ask about milk yield, vaccination, or inspection availability..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- 9. ADMIN 15-DAY REMOVAL CONFIRMATION MODAL -->
+    <div class="modal-overlay" id="modal-admin-remove" style="display:none;">
+        <div class="modal-card">
+            <button type="button" class="modal-close-btn" onclick="closeAdminRemoveModal()"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-header">
+                <h3><i class="fa-solid fa-triangle-exclamation text-warning"></i> Confirm Sold-Out Listing Removal</h3>
+            </div>
+            <div class="modal-body">
+                <p>Are you sure you want to remove this sold-out listing from the marketplace?</p>
+                <div class="removal-details-box">
+                    <div class="rem-row"><label>Listing ID:</label> <span id="rem-modal-id">--</span></div>
+                    <div class="rem-row"><label>Animal / Breed:</label> <span id="rem-modal-breed">--</span></div>
+                    <div class="rem-row"><label>Purchase Date:</label> <span id="rem-modal-purchdate">--</span></div>
+                    <div class="rem-row"><label>Eligible Removal Date:</label> <span id="rem-modal-eligdate">--</span></div>
+                </div>
+                <div class="alert-box alert-info mt-3">
+                    <i class="fa-solid fa-circle-info"></i>
+                    <div>The listing will be soft-deleted from active marketplace views. Full purchase and sales history records for both buyer and farmer will remain permanently preserved.</div>
+                </div>
+                <div class="modal-action-row mt-3">
+                    <button type="button" class="btn btn-secondary" onclick="closeAdminRemoveModal()">Cancel</button>
+                    <button type="button" class="btn btn-danger" id="btn-confirm-admin-remove" onclick="executeAdminListingRemoval()"><i class="fa-solid fa-trash-can"></i> Remove Listing</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 10. BUYER LIVESTOCK LOCATION MAP & DIRECTIONS MODAL -->
+    <div class="modal-overlay" id="modal-livestock-map" style="display:none;">
+        <div class="modal-card" style="max-width: 720px; width: 95%;">
+            <button type="button" class="modal-close-btn" onclick="closeLivestockMapModal()"><i class="fa-solid fa-xmark"></i></button>
+            <div class="modal-header">
+                <h3><i class="fa-solid fa-map-location-dot" style="color:var(--primary);"></i> Livestock Location & Directions</h3>
+                <p>Geographical location map and navigation options</p>
+            </div>
+            <div class="modal-body" id="livestock-map-modal-body">
+                <!-- Dynamically Populated -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Application Javascript Bundle -->
+    <script src="/static/js/app.js?v=3.8.0"></script>
+</body>
+</html>

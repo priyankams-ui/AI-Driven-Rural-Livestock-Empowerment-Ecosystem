@@ -1,0 +1,1179 @@
+[
+  {
+    "base_id": "Buff_Auth_000",
+    "gender": "Female",
+    "primary": "data/new_images/femalebuffolo.jpg",
+    "box": [
+      37.89756774902344,
+      36.30168533325195,
+      452.16729736328125,
+      280.5107727050781
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_001",
+    "gender": "Female",
+    "primary": "data/new_images/femalebuffolo1.jpg",
+    "box": [
+      88.996826171875,
+      66.67090606689453,
+      647.2341918945312,
+      515.114013671875
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_002",
+    "gender": "Female",
+    "primary": "data/new_images/femalebuffolo2.jpg",
+    "box": [
+      25.026887893676758,
+      44.96375274658203,
+      348.8273620605469,
+      251.29019165039062
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_003",
+    "gender": "Male",
+    "primary": "data/new_images/malebuffolo.jpg",
+    "box": [
+      16.202743530273438,
+      15.5908784866333,
+      296.63800048828125,
+      210.09202575683594
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_004",
+    "gender": "Male",
+    "primary": "data/new_images/malebuffolo1.jpg",
+    "box": [
+      71.10423278808594,
+      48.27125930786133,
+      274.0509948730469,
+      227.2091064453125
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_005",
+    "gender": "Male",
+    "primary": "data/new_images/malebuffolo2.jpg",
+    "box": [
+      1.118528962135315,
+      25.60750389099121,
+      155.74655151367188,
+      130.27310180664062
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_006",
+    "gender": "Male",
+    "primary": "data/new_images/malebuffolo3.jpg",
+    "box": [
+      44.1866455078125,
+      47.816070556640625,
+      304.172607421875,
+      224.75413513183594
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_007",
+    "gender": "Female",
+    "primary": "gender_dataset/buffalo/female/banni_female_0caae.jpg",
+    "box": [
+      40.46358871459961,
+      18.97023582458496,
+      406.8721923828125,
+      275.018310546875
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_008",
+    "gender": "Female",
+    "primary": "gender_dataset/buffalo/female/murrah_female_original.jpg",
+    "box": [
+      0.4540384113788605,
+      11.256086349487305,
+      247.14727783203125,
+      192.055908203125
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_009",
+    "gender": "Male",
+    "primary": "gender_dataset/buffalo/male/bhadawari_bull.jpg",
+    "box": [
+      8.397631645202637,
+      3.3204455375671387,
+      273.4706726074219,
+      181.58096313476562
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_010",
+    "gender": "Male",
+    "primary": "gender_dataset/buffalo/male/jafarabadi_bull_punjab.jpg",
+    "box": [
+      18.112319946289062,
+      3.129852533340454,
+      267.23321533203125,
+      166.89901733398438
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_011",
+    "gender": "Male",
+    "primary": "buffalo/banni/1280px-Water_buffalo_bull-_near_Mehsana-_Gujarat-_India-_3.jpg",
+    "box": [
+      96.724609375,
+      118.23971557617188,
+      1217.6177978515625,
+      942.8886108398438
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_012",
+    "gender": "Male",
+    "primary": "buffalo/banni/Banni-Male-Buffalo-Breed-360x240.png",
+    "box": [
+      49.86374282836914,
+      20.747920989990234,
+      302.83575439453125,
+      218.20394897460938
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_013",
+    "gender": "Male",
+    "primary": "buffalo/banni/livestock-breeding-services-frozen-semen-dose-of-banni-buf.jpg",
+    "box": [
+      62.7258186340332,
+      58.3459587097168,
+      572.0174560546875,
+      378.9639892578125
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_014",
+    "gender": "Female",
+    "primary": "buffalo/bargur/Black_Murrah_BuffaloVijay_Dairy_Farm.jpg",
+    "box": [
+      0.05194902420043945,
+      34.069549560546875,
+      216.65579223632812,
+      189.2412109375
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_015",
+    "gender": "Female",
+    "primary": "buffalo/bargur/Murrah_BuffaloSuresh_Dairy_Farm.jpg",
+    "box": [
+      19.828842163085938,
+      73.97853088378906,
+      202.09500122070312,
+      182.40274047851562
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_016",
+    "gender": "Male",
+    "primary": "buffalo/bhadwari/Bhadavari_Archives_-_BAIF_Sire_Directory.jpg",
+    "box": [
+      16.676721572875977,
+      28.687667846679688,
+      233.83023071289062,
+      167.3870391845703
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_017",
+    "gender": "Female",
+    "primary": "buffalo/bhadwari/Mehsana_Dairy_Knowledge_Portal.jpg",
+    "box": [
+      13.545570373535156,
+      45.7591552734375,
+      237.5626983642578,
+      179.45791625976562
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_018",
+    "gender": "Female",
+    "primary": "buffalo/bhadwari/Surti_Dairy_Knowledge_Portal.jpg",
+    "box": [
+      67.48396301269531,
+      44.20420455932617,
+      215.33670043945312,
+      155.3272705078125
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_019",
+    "gender": "Male",
+    "primary": "buffalo/Chhattisgarhi/Captive_breeding_centre_for_wild_water_.jpeg",
+    "box": [
+      25.527610778808594,
+      0.0,
+      220.76097106933594,
+      163.0
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_020",
+    "gender": "Female",
+    "primary": "buffalo/chilika/Dairy_Farming_Buffalo_Pics.jpg",
+    "box": [
+      16.929777145385742,
+      53.10943603515625,
+      233.4922332763672,
+      175.8712615966797
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_021",
+    "gender": "Female",
+    "primary": "buffalo/Jaffarabadi/Animal_Nutrition_-_FoodFeedInfo_Dairy_.jpg",
+    "box": [
+      25.431882858276367,
+      20.039810180664062,
+      249.81576538085938,
+      185.24073791503906
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_022",
+    "gender": "Male",
+    "primary": "buffalo/Jaffarabadi/Black_Jafarabadi_Bull_Semen_at_Best_.jpg",
+    "box": [
+      12.366893768310547,
+      49.488426208496094,
+      218.2943115234375,
+      160.2244415283203
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_023",
+    "gender": "Female",
+    "primary": "buffalo/Jaffarabadi/Chandani_dairy_and_farming_-_My_.jpg",
+    "box": [
+      41.65509796142578,
+      34.53798294067383,
+      204.2206573486328,
+      149.83717346191406
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_024",
+    "gender": "Female",
+    "primary": "buffalo/Jaffarabadi/Chaudhary_Dairy_Farm_in_Mahesana_ (2).jpg",
+    "box": [
+      43.43119812011719,
+      6.911521911621094,
+      249.38632202148438,
+      193.5219268798828
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_025",
+    "gender": "Female",
+    "primary": "buffalo/Jaffarabadi/Dairy_Farming_Jafarabadi_Buffalo_Pictures.jpg",
+    "box": [
+      18.169153213500977,
+      12.060274124145508,
+      272.95477294921875,
+      180.98170471191406
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_026",
+    "gender": "Male",
+    "primary": "buffalo/Jaffarabadi/Dairy_Farm_with_Jafarabadi_Bull_.jpg",
+    "box": [
+      28.968130111694336,
+      51.754581451416016,
+      208.7039337158203,
+      207.98638916015625
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_027",
+    "gender": "Female",
+    "primary": "buffalo/Jaffarabadi/Dhan_dairy_Fram_on_Reels_Facebook.jpg",
+    "box": [
+      13.426008224487305,
+      32.68540573120117,
+      299.56414794921875,
+      167.79844665527344
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_028",
+    "gender": "Female",
+    "primary": "buffalo/Jaffarabadi/Ghanshyam_dairy_farm_in_Navi_Mumbai_.jpg",
+    "box": [
+      2.3325254917144775,
+      28.139179229736328,
+      178.8431854248047,
+      240.52310180664062
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_029",
+    "gender": "Female",
+    "primary": "buffalo/Jaffarabadi/Gujarat_Kanhaiya_Dairy_Farm_Jamnagar_.jpg",
+    "box": [
+      11.267538070678711,
+      16.53102684020996,
+      283.4698181152344,
+      142.3505401611328
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_030",
+    "gender": "Female",
+    "primary": "buffalo/Jaffarabadi/Jafarabadi_Buffalo_and_Cows_Manavadar.jpg",
+    "box": [
+      15.676669120788574,
+      15.172934532165527,
+      192.9222412109375,
+      147.38394165039062
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_031",
+    "gender": "Female",
+    "primary": "buffalo/Jaffarabadi/Jafarabadi_Buffalo_buffalo_cow_.jpg",
+    "box": [
+      3.248385190963745,
+      48.25115203857422,
+      131.94265747070312,
+      266.8289489746094
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_032",
+    "gender": "Male",
+    "primary": "buffalo/Jaffarabadi/Jafarabadi_buffalo_bull_for_sales_4_.jpg",
+    "box": [
+      33.853858947753906,
+      13.314252853393555,
+      235.54823303222656,
+      139.4345245361328
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_033",
+    "gender": "Female",
+    "primary": "buffalo/Jaffarabadi/Jafarabadi_buffalo_Chandani_dairy_.jpg",
+    "box": [
+      0.0,
+      40.11867141723633,
+      154.6905517578125,
+      216.14544677734375
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_034",
+    "gender": "Female",
+    "primary": "buffalo/Jaffarabadi/jafarabadi_buffalo_dairyfarm_cattle_.jpg",
+    "box": [
+      0.7188457250595093,
+      80.62725830078125,
+      212.02769470214844,
+      229.19793701171875
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_035",
+    "gender": "Male",
+    "primary": "buffalo/Jaffarabadi/Jafarabadi_bull_from_Gujarat_-_YouTube.jpg",
+    "box": [
+      18.294910430908203,
+      1.6399680376052856,
+      298.8241882324219,
+      167.74012756347656
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_036",
+    "gender": "Male",
+    "primary": "buffalo/Jaffarabadi/Jafarabadi_Bull_SS-ABC_Dams_Yield_.jpg",
+    "box": [
+      26.698139190673828,
+      73.94673919677734,
+      182.99185180664062,
+      177.75091552734375
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_037",
+    "gender": "Female",
+    "primary": "buffalo/Jaffarabadi/Jaffarabadi_Dairy_Knowledge_Portal.jpg",
+    "box": [
+      38.174983978271484,
+      33.5868034362793,
+      238.8933868408203,
+      147.76907348632812
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_038",
+    "gender": "Female",
+    "primary": "buffalo/Jaffarabadi/Milking_Jafrabadi_Buffalo_Farm_.jpg",
+    "box": [
+      27.718427658081055,
+      3.62606143951416,
+      267.6177673339844,
+      152.27919006347656
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_039",
+    "gender": "Male",
+    "primary": "buffalo/Jaffarabadi/Tulsidas_-_BAIF_Sire_Directory.jpg",
+    "box": [
+      9.66771411895752,
+      39.196937561035156,
+      216.10862731933594,
+      206.4424285888672
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_040",
+    "gender": "Female",
+    "primary": "buffalo/kalahandi/kalahandi_Buffalo_dairy_farming_.jpg",
+    "box": [
+      39.87731170654297,
+      32.18965148925781,
+      284.57098388671875,
+      165.00253295898438
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_041",
+    "gender": "Female",
+    "primary": "buffalo/kalahandi/Luit_Dairy_Knowledge_Portal.jpg",
+    "box": [
+      43.290103912353516,
+      8.92101001739502,
+      249.76510620117188,
+      157.87646484375
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_042",
+    "gender": "Female",
+    "primary": "buffalo/luit/Dairy_Farming_Buffalo_Pics (1).jpg",
+    "box": [
+      23.79100227355957,
+      36.265647888183594,
+      240.52322387695312,
+      172.25157165527344
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_043",
+    "gender": "Male",
+    "primary": "buffalo/marathwada/breeds_analyses_breeding_males_.jpg",
+    "box": [
+      0.5650691986083984,
+      2.1056909561157227,
+      254.28140258789062,
+      197.1614532470703
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_044",
+    "gender": "Female",
+    "primary": "buffalo/marathwada/Dairy_Business_Ideas_marathwadi_buffalo_.jpg",
+    "box": [
+      7.734289169311523,
+      6.654592514038086,
+      298.0412902832031,
+      167.6236114501953
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_045",
+    "gender": "Female",
+    "primary": "buffalo/marathwada/Department_of_animal_husbandry_and_dairying (2).jpg",
+    "box": [
+      1.0854148864746094,
+      37.5269889831543,
+      222.502685546875,
+      217.6367950439453
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_046",
+    "gender": "Female",
+    "primary": "buffalo/marathwada/Manda_Dairy_Knowledge_Portal (1).jpg",
+    "box": [
+      38.79254150390625,
+      8.005735397338867,
+      246.16908264160156,
+      158.19178771972656
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_047",
+    "gender": "Female",
+    "primary": "buffalo/marathwada/Manda_Dairy_Knowledge_Portal.jpg",
+    "box": [
+      28.688858032226562,
+      13.06806755065918,
+      245.06661987304688,
+      152.6538543701172
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_048",
+    "gender": "Female",
+    "primary": "buffalo/marathwada/Marathwadi_Buffalo_dairy_farming_.jpg",
+    "box": [
+      75.97382354736328,
+      35.19908142089844,
+      232.79592895507812,
+      110.94754791259766
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_049",
+    "gender": "Female",
+    "primary": "buffalo/marathwada/Mehsana_Dairy_Knowledge_Portal (1).jpg",
+    "box": [
+      20.935970306396484,
+      13.791178703308105,
+      238.46363830566406,
+      174.0566864013672
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_050",
+    "gender": "Female",
+    "primary": "buffalo/murrah/353_Murrah_Buffalo_for_Dairy_Farming_.jpg",
+    "box": [
+      0.6880831718444824,
+      37.43173599243164,
+      210.06626892089844,
+      196.05091857910156
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_051",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Dairy_Farming_Murrah_Buffalo_Pictures.jpg",
+    "box": [
+      24.587074279785156,
+      28.30914306640625,
+      258.5815124511719,
+      189.5727081298828
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_052",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Dairy_Farm_Murrah_Buffalo_PriceDairy_.jpg",
+    "box": [
+      80.70423889160156,
+      6.5791473388671875,
+      203.83084106445312,
+      222.34765625
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_053",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Dairy_Murrah_Buffalo_at_70000_per_.jpg",
+    "box": [
+      25.05249786376953,
+      10.792898178100586,
+      221.3058319091797,
+      214.08834838867188
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_054",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Dairy_Murrah_Buffalo_for_Dairy_Farming_.jpg",
+    "box": [
+      48.868125915527344,
+      64.62213897705078,
+      207.91773986816406,
+      186.73863220214844
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_055",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Dairy_Murrah_Buffalo_for_Sale_at_an_.jpg",
+    "box": [
+      33.586326599121094,
+      34.70672607421875,
+      199.26028442382812,
+      195.81961059570312
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_056",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Goyat_Murrah_Buffalo_Dairy_Farm_in_.jpg",
+    "box": [
+      91.51964569091797,
+      46.38067626953125,
+      214.0205535888672,
+      132.71018981933594
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_057",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Harshit_Gupta_Dairy_Farm (3).jpg",
+    "box": [
+      43.08427047729492,
+      3.820946216583252,
+      185.36265563964844,
+      214.45022583007812
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_058",
+    "gender": "Female",
+    "primary": "buffalo/murrah/High_Milking_Pure_Breed_Murrah_Buffalo_.jpg",
+    "box": [
+      3.2351088523864746,
+      29.220901489257812,
+      220.60621643066406,
+      179.9665069580078
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_059",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Indian_Dairy_Farm_Murrah_Buffalo_.jpg",
+    "box": [
+      32.105533599853516,
+      17.12925148010254,
+      206.22445678710938,
+      209.69375610351562
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_060",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Kissan_Dairy_Farm.jpg",
+    "box": [
+      7.181678771972656,
+      54.1036376953125,
+      214.96145629882812,
+      214.34996032714844
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_061",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Manjeet_Singh_Fauji_Dairy_form_Haryana_.jpg",
+    "box": [
+      54.61266326904297,
+      63.38726043701172,
+      224.9466552734375,
+      222.4611358642578
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_062",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Mansa_Dairy_Farm.jpg",
+    "box": [
+      1.487874984741211,
+      25.489187240600586,
+      223.3231201171875,
+      197.6330108642578
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_063",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Murrah_Buffalo_-_Female_Breed_High_.jpg",
+    "box": [
+      13.055663108825684,
+      8.716869354248047,
+      276.33294677734375,
+      162.05853271484375
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_064",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Murrah_buffalo_breed_black_cow_standing_.jpg",
+    "box": [
+      36.60237121582031,
+      1.3285261392593384,
+      260.0,
+      154.02366638183594
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_065",
+    "gender": "Male",
+    "primary": "buffalo/murrah/Murrah_buffalo_bulls_to_be_used_for_.jpg",
+    "box": [
+      18.83009910583496,
+      22.59092140197754,
+      262.809326171875,
+      161.6627655029297
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_066",
+    "gender": "Male",
+    "primary": "buffalo/murrah/Murrah_Buffalo_Clone_1st_clone_male_.jpg",
+    "box": [
+      0.25231218338012695,
+      8.570783615112305,
+      258.17852783203125,
+      191.10125732421875
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_067",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Murrah_Buffalo_Dairy_.jpg",
+    "box": [
+      20.258638381958008,
+      0.4835677742958069,
+      208.7678680419922,
+      130.23324584960938
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_068",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Murrah_Buffalo_Dairy_Farm_at_87000_.jpg",
+    "box": [
+      14.992178916931152,
+      25.40529441833496,
+      220.89720153808594,
+      183.35047912597656
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_069",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Murrah_Bulbul_Buffaloes_For_Dairy_.jpg",
+    "box": [
+      43.633575439453125,
+      42.401432037353516,
+      223.07266235351562,
+      150.50489807128906
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_070",
+    "gender": "Male",
+    "primary": "buffalo/murrah/Murrah_BullMurrah_Buffalo_BullsBull_.jpg",
+    "box": [
+      1.6411269903182983,
+      26.536136627197266,
+      244.912841796875,
+      179.07623291015625
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_071",
+    "gender": "Male",
+    "primary": "buffalo/murrah/Murrah_Bull_In_India_Murrah_Buffalo_Is_ (3).jpg",
+    "box": [
+      15.544073104858398,
+      35.64750289916992,
+      238.0009002685547,
+      152.27037048339844
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_072",
+    "gender": "Male",
+    "primary": "buffalo/murrah/Murrah_Bull_in_India_Murrah_Buffalo_is_ (4).jpg",
+    "box": [
+      30.272960662841797,
+      26.1946964263916,
+      230.05584716796875,
+      192.13424682617188
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_073",
+    "gender": "Male",
+    "primary": "buffalo/murrah/Murrah_Bull_in_India_Murrah_Buffalo_is_ (5).jpg",
+    "box": [
+      41.63698196411133,
+      35.634273529052734,
+      259.0,
+      193.743896484375
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_074",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Murrah_Cow_waterbuffalo.jpg",
+    "box": [
+      0.853284478187561,
+      11.985824584960938,
+      266.7090759277344,
+      185.18861389160156
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_075",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Murrah_Dairy_Knowledge_Portal.jpg",
+    "box": [
+      11.303264617919922,
+      35.67522048950195,
+      193.7578582763672,
+      173.44712829589844
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_076",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Pregnant_Murrah_Buffalo_Prime_Dairy_.jpg",
+    "box": [
+      3.473696708679199,
+      41.36282730102539,
+      214.9279022216797,
+      184.65777587890625
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_077",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Profitable_Dairy_Farming_with_Murrah_.jpg",
+    "box": [
+      2.750887870788574,
+      61.37602233886719,
+      169.4503936767578,
+      148.45004272460938
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_078",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Pure_Black_Pregnant_Murrah_Buffalo_ (3).jpg",
+    "box": [
+      9.002080917358398,
+      0.7459064722061157,
+      241.05047607421875,
+      197.99609375
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_079",
+    "gender": "Female",
+    "primary": "buffalo/murrah/SAG_Buffalo_MURRAH_murrahcow_.jpg",
+    "box": [
+      60.37714767456055,
+      31.301685333251953,
+      228.69049072265625,
+      135.76593017578125
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_080",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Welcome_to_Kissan_Dairy_Farm (1).jpg",
+    "box": [
+      29.88100242614746,
+      10.549883842468262,
+      223.57679748535156,
+      176.65333557128906
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_081",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Welcome_to_Kissan_Dairy_Farm.jpg",
+    "box": [
+      49.83308792114258,
+      13.778676986694336,
+      254.9668731689453,
+      141.13633728027344
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_082",
+    "gender": "Female",
+    "primary": "buffalo/nagpuri/Milky_Master_Waterproof_Cow_mat_.jpg",
+    "box": [
+      13.901546478271484,
+      0.7996278405189514,
+      267.83636474609375,
+      164.04592895507812
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_083",
+    "gender": "Female",
+    "primary": "buffalo/nagpuri/Nagpuri_cow_ox_cow_Goat_Family_.jpg",
+    "box": [
+      1.0646743774414062,
+      4.666295528411865,
+      264.78643798828125,
+      183.56597900390625
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_084",
+    "gender": "Male",
+    "primary": "buffalo/nagpuri/Thakya_-_BAIF_Sire_Directory.jpg",
+    "box": [
+      16.475444793701172,
+      29.581865310668945,
+      262.3078918457031,
+      173.5719757080078
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_085",
+    "gender": "Female",
+    "primary": "buffalo/nili-ravi/Biggest_Nili_Ravi_Buffalo_Dairy_Farm_of_.jpg",
+    "box": [
+      94.0204086303711,
+      28.286006927490234,
+      255.0637969970703,
+      166.876708984375
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_086",
+    "gender": "Female",
+    "primary": "buffalo/nili-ravi/dairy_farms_productivity_with_NR-21440_.jpg",
+    "box": [
+      10.143674850463867,
+      50.63955307006836,
+      218.44073486328125,
+      202.5386199951172
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_087",
+    "gender": "Female",
+    "primary": "buffalo/nili-ravi/HSB_Nili_Ravi_Bull-Parass_Mother_ (1).jpg",
+    "box": [
+      36.5261344909668,
+      51.66143035888672,
+      221.76077270507812,
+      172.14108276367188
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_088",
+    "gender": "Female",
+    "primary": "buffalo/nili-ravi/HSB_Nili_Ravi_Bull-Parass_Mother_ (3).jpg",
+    "box": [
+      44.9395637512207,
+      9.466865539550781,
+      213.45497131347656,
+      169.895263671875
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_089",
+    "gender": "Male",
+    "primary": "buffalo/nili-ravi/Neeli_Ravi_buffalo_bull_ (2).jpg",
+    "box": [
+      15.181535720825195,
+      10.73920726776123,
+      246.99453735351562,
+      163.3640899658203
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_090",
+    "gender": "Female",
+    "primary": "buffalo/nili-ravi/Neli_Ravi_buffalo_and_a_Sahiwal_cow_.jpg",
+    "box": [
+      12.473965644836426,
+      39.63665008544922,
+      248.5729217529297,
+      183.3822479248047
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_091",
+    "gender": "Female",
+    "primary": "buffalo/nili-ravi/Nili_ravi_buffalo_dairy_lover_.jpg",
+    "box": [
+      7.24859094619751,
+      73.06639099121094,
+      157.91073608398438,
+      223.07147216796875
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_092",
+    "gender": "Female",
+    "primary": "buffalo/nili-ravi/Nili_Ravi_Buffalo_Morden_Dairy_Farming.jpg",
+    "box": [
+      1.8533668518066406,
+      11.729007720947266,
+      253.70664978027344,
+      193.43093872070312
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_093",
+    "gender": "Male",
+    "primary": "buffalo/nili-ravi/Nili_ravi_bull_Quality_full_niliravi_.jpg",
+    "box": [
+      50.91915512084961,
+      33.85021209716797,
+      199.3934326171875,
+      212.06387329101562
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_094",
+    "gender": "Female",
+    "primary": "buffalo/nili-ravi/Pak_Dairy_Info_-_Nili_Ravi_Buffalo (2).jpg",
+    "box": [
+      1.926693081855774,
+      3.325951337814331,
+      268.0107727050781,
+      185.1758270263672
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_095",
+    "gender": "Female",
+    "primary": "buffalo/nili-ravi/Pak_Dairy_Info_-_Nili_Ravi_Buffalo.jpg",
+    "box": [
+      0.9884227514266968,
+      6.264051914215088,
+      265.5215759277344,
+      184.89320373535156
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_096",
+    "gender": "Female",
+    "primary": "buffalo/nili-ravi/Pure_Nili_Ravi_Buffaloes_Gender_Female_ (2).jpg",
+    "box": [
+      3.5950965881347656,
+      3.202136993408203,
+      258.3536376953125,
+      184.2999267578125
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_097",
+    "gender": "Female",
+    "primary": "buffalo/pandharpuri/Marathwadi_Dairy_Knowledge_Portal.jpg",
+    "box": [
+      16.97372055053711,
+      15.367735862731934,
+      251.775146484375,
+      197.46560668945312
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_098",
+    "gender": "Female",
+    "primary": "buffalo/pandharpuri/Murrah_Dairy_Knowledge_Portal.jpg",
+    "box": [
+      10.976032257080078,
+      2.643613576889038,
+      292.08087158203125,
+      163.78057861328125
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_099",
+    "gender": "Female",
+    "primary": "buffalo/surti/Milking_Murrah_Buffalo_Female_750kg_.jpg",
+    "box": [
+      19.420297622680664,
+      58.47239685058594,
+      203.7322235107422,
+      176.7241668701172
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_100",
+    "gender": "Female",
+    "primary": "buffalo/surti/Murrah_BuffaloShri_Ganesh_Dairy_Farm.jpg",
+    "box": [
+      20.148303985595703,
+      53.84485626220703,
+      222.20846557617188,
+      179.8434600830078
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_101",
+    "gender": "Female",
+    "primary": "buffalo/surti/Nadiyan_Dairy_Farm_Karnal.jpg",
+    "box": [
+      15.854344367980957,
+      89.83863067626953,
+      198.61692810058594,
+      199.59347534179688
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_102",
+    "gender": "Male",
+    "primary": "data/new_images/malebuffolo2.webp",
+    "box": [
+      0.6639301180839539,
+      23.647232055664062,
+      156.0,
+      130.58535766601562
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_103",
+    "gender": "Male",
+    "primary": "gender_dataset/buffalo/male/banni_bull_0.jpg",
+    "box": [
+      119.61934661865234,
+      104.58185577392578,
+      353.0210876464844,
+      276.56097412109375
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_104",
+    "gender": "Male",
+    "primary": "buffalo/Jaffarabadi/JF-40493_Alamadhi_Semen_Station.jpg",
+    "box": [
+      13.557538032531738,
+      26.85211181640625,
+      249.08287048339844,
+      177.29295349121094
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_105",
+    "gender": "Male",
+    "primary": "buffalo/Jaffarabadi/JF-50262_Rahuri_Semen_Station.jpg",
+    "box": [
+      21.328643798828125,
+      18.053203582763672,
+      233.4499969482422,
+      163.87966918945312
+    ]
+  },
+  {
+    "base_id": "Buff_Auth_106",
+    "gender": "Male",
+    "primary": "buffalo/Jaffarabadi/JF-50400_Rahuri_Semen_Station.jpg",
+    "box": [
+      14.907971382141113,
+      27.324298858642578,
+      256.2835693359375,
+      175.594482421875
+    ]
+  }
+]

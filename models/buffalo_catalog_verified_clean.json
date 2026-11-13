@@ -1,0 +1,824 @@
+[
+  {
+    "base_id": "Clean_Buff_000",
+    "gender": "Female",
+    "primary": "data/new_images/femalebuffolo.jpg",
+    "breed": "Reference"
+  },
+  {
+    "base_id": "Clean_Buff_001",
+    "gender": "Female",
+    "primary": "data/new_images/femalebuffolo1.jpg",
+    "breed": "Reference"
+  },
+  {
+    "base_id": "Clean_Buff_002",
+    "gender": "Female",
+    "primary": "data/new_images/femalebuffolo2.jpg",
+    "breed": "Reference"
+  },
+  {
+    "base_id": "Clean_Buff_003",
+    "gender": "Male",
+    "primary": "data/new_images/malebuffolo.jpg",
+    "breed": "Reference"
+  },
+  {
+    "base_id": "Clean_Buff_004",
+    "gender": "Male",
+    "primary": "data/new_images/malebuffolo1.jpg",
+    "breed": "Reference"
+  },
+  {
+    "base_id": "Clean_Buff_005",
+    "gender": "Male",
+    "primary": "data/new_images/malebuffolo2.jpg",
+    "breed": "Reference"
+  },
+  {
+    "base_id": "Clean_Buff_006",
+    "gender": "Male",
+    "primary": "data/new_images/malebuffolo3.jpg",
+    "breed": "Reference"
+  },
+  {
+    "base_id": "Clean_Buff_007",
+    "gender": "Female",
+    "primary": "gender_dataset/buffalo/female/banni_female_0caae.jpg",
+    "breed": "GenderDataset"
+  },
+  {
+    "base_id": "Clean_Buff_008",
+    "gender": "Female",
+    "primary": "gender_dataset/buffalo/female/murrah_female_original.jpg",
+    "breed": "GenderDataset"
+  },
+  {
+    "base_id": "Clean_Buff_009",
+    "gender": "Male",
+    "primary": "gender_dataset/buffalo/male/bhadawari_bull.jpg",
+    "breed": "GenderDataset"
+  },
+  {
+    "base_id": "Clean_Buff_010",
+    "gender": "Male",
+    "primary": "gender_dataset/buffalo/male/jafarabadi_bull_punjab.jpg",
+    "breed": "GenderDataset"
+  },
+  {
+    "base_id": "Clean_Buff_011",
+    "gender": "Male",
+    "primary": "buffalo/banni/1280px-Water_buffalo_bull-_near_Mehsana-_Gujarat-_India-_3.jpg",
+    "breed": "banni"
+  },
+  {
+    "base_id": "Clean_Buff_012",
+    "gender": "Male",
+    "primary": "buffalo/banni/Banni-Male-Buffalo-Breed-360x240.png",
+    "breed": "banni"
+  },
+  {
+    "base_id": "Clean_Buff_013",
+    "gender": "Male",
+    "primary": "buffalo/banni/livestock-breeding-services-frozen-semen-dose-of-banni-buf.jpg",
+    "breed": "banni"
+  },
+  {
+    "base_id": "Clean_Buff_014",
+    "gender": "Female",
+    "primary": "buffalo/bargur/Black_Murrah_BuffaloVijay_Dairy_Farm.jpg",
+    "breed": "bargur"
+  },
+  {
+    "base_id": "Clean_Buff_015",
+    "gender": "Female",
+    "primary": "buffalo/bargur/Murrah_BuffaloSuresh_Dairy_Farm.jpg",
+    "breed": "bargur"
+  },
+  {
+    "base_id": "Clean_Buff_016",
+    "gender": "Female",
+    "primary": "buffalo/bhadwari/Apparently_Cross_Between_Cows_Buffalo_.jpg",
+    "breed": "bhadwari"
+  },
+  {
+    "base_id": "Clean_Buff_017",
+    "gender": "Male",
+    "primary": "buffalo/bhadwari/Bhadavari_Archives_-_BAIF_Sire_Directory.jpg",
+    "breed": "bhadwari"
+  },
+  {
+    "base_id": "Clean_Buff_018",
+    "gender": "Female",
+    "primary": "buffalo/bhadwari/Gaay_Bhens_Dekho_cows_breeds_.jpg",
+    "breed": "bhadwari"
+  },
+  {
+    "base_id": "Clean_Buff_019",
+    "gender": "Female",
+    "primary": "buffalo/bhadwari/Mehsana_Dairy_Knowledge_Portal.jpg",
+    "breed": "bhadwari"
+  },
+  {
+    "base_id": "Clean_Buff_020",
+    "gender": "Female",
+    "primary": "buffalo/bhadwari/Punganur_Cow_Breed_.jpg",
+    "breed": "bhadwari"
+  },
+  {
+    "base_id": "Clean_Buff_021",
+    "gender": "Female",
+    "primary": "buffalo/bhadwari/Surti_Dairy_Knowledge_Portal.jpg",
+    "breed": "bhadwari"
+  },
+  {
+    "base_id": "Clean_Buff_022",
+    "gender": "Male",
+    "primary": "buffalo/Chhattisgarhi/Captive_breeding_centre_for_wild_water_.jpeg",
+    "breed": "Chhattisgarhi"
+  },
+  {
+    "base_id": "Clean_Buff_023",
+    "gender": "Female",
+    "primary": "buffalo/chilika/Dairy_Farming_Buffalo_Pics (2).jpg",
+    "breed": "chilika"
+  },
+  {
+    "base_id": "Clean_Buff_024",
+    "gender": "Female",
+    "primary": "buffalo/chilika/Dairy_Farming_Buffalo_Pics.jpg",
+    "breed": "chilika"
+  },
+  {
+    "base_id": "Clean_Buff_025",
+    "gender": "Female",
+    "primary": "buffalo/Jaffarabadi/50_Jafarabadi_Buffalo_Dairy_Farming_by_.jpg",
+    "breed": "Jaffarabadi"
+  },
+  {
+    "base_id": "Clean_Buff_026",
+    "gender": "Female",
+    "primary": "buffalo/Jaffarabadi/Animal_Nutrition_-_FoodFeedInfo_Dairy_.jpg",
+    "breed": "Jaffarabadi"
+  },
+  {
+    "base_id": "Clean_Buff_027",
+    "gender": "Male",
+    "primary": "buffalo/Jaffarabadi/best_india_breed_jafarabadi_bull_.jpg",
+    "breed": "Jaffarabadi"
+  },
+  {
+    "base_id": "Clean_Buff_028",
+    "gender": "Male",
+    "primary": "buffalo/Jaffarabadi/Big_Jafarabadi_Buffalo_Bull_2023_Sadeeq_.jpg",
+    "breed": "Jaffarabadi"
+  },
+  {
+    "base_id": "Clean_Buff_029",
+    "gender": "Male",
+    "primary": "buffalo/Jaffarabadi/Black_Jafarabadi_Bull_Semen_at_Best_.jpg",
+    "breed": "Jaffarabadi"
+  },
+  {
+    "base_id": "Clean_Buff_030",
+    "gender": "Female",
+    "primary": "buffalo/Jaffarabadi/Chandani_dairy_and_farming_-_My_.jpg",
+    "breed": "Jaffarabadi"
+  },
+  {
+    "base_id": "Clean_Buff_031",
+    "gender": "Female",
+    "primary": "buffalo/Jaffarabadi/Chaudhary_Dairy_Farm_in_Mahesana_ (2).jpg",
+    "breed": "Jaffarabadi"
+  },
+  {
+    "base_id": "Clean_Buff_032",
+    "gender": "Female",
+    "primary": "buffalo/Jaffarabadi/Cows_Dancing_A_Hilarious_AI_Cow_Dance_.jpg",
+    "breed": "Jaffarabadi"
+  },
+  {
+    "base_id": "Clean_Buff_033",
+    "gender": "Female",
+    "primary": "buffalo/Jaffarabadi/Cow_Videos (1).jpg",
+    "breed": "Jaffarabadi"
+  },
+  {
+    "base_id": "Clean_Buff_034",
+    "gender": "Female",
+    "primary": "buffalo/Jaffarabadi/dairyfarm_buffalo_milk_animal_reel_.jpg",
+    "breed": "Jaffarabadi"
+  },
+  {
+    "base_id": "Clean_Buff_035",
+    "gender": "Female",
+    "primary": "buffalo/Jaffarabadi/Dairy_Farming_Jafarabadi_Buffalo_Pictures.jpg",
+    "breed": "Jaffarabadi"
+  },
+  {
+    "base_id": "Clean_Buff_036",
+    "gender": "Female",
+    "primary": "buffalo/Jaffarabadi/Dairy_Farming_November_2013.jpg",
+    "breed": "Jaffarabadi"
+  },
+  {
+    "base_id": "Clean_Buff_037",
+    "gender": "Male",
+    "primary": "buffalo/Jaffarabadi/Dairy_Farm_with_Jafarabadi_Bull_.jpg",
+    "breed": "Jaffarabadi"
+  },
+  {
+    "base_id": "Clean_Buff_038",
+    "gender": "Female",
+    "primary": "buffalo/Jaffarabadi/Dhan_dairy_Fram_on_Reels_Facebook.jpg",
+    "breed": "Jaffarabadi"
+  },
+  {
+    "base_id": "Clean_Buff_039",
+    "gender": "Female",
+    "primary": "buffalo/Jaffarabadi/Exploring_Dairy_Farming_with_Nili_Ravi_.jpg",
+    "breed": "Jaffarabadi"
+  },
+  {
+    "base_id": "Clean_Buff_040",
+    "gender": "Female",
+    "primary": "buffalo/Jaffarabadi/Exploring_Gujrat_Dairy_and_Cattle_Farm_.jpg",
+    "breed": "Jaffarabadi"
+  },
+  {
+    "base_id": "Clean_Buff_041",
+    "gender": "Female",
+    "primary": "buffalo/Jaffarabadi/Ghanshyam_dairy_farm_in_Navi_Mumbai_.jpg",
+    "breed": "Jaffarabadi"
+  },
+  {
+    "base_id": "Clean_Buff_042",
+    "gender": "Female",
+    "primary": "buffalo/Jaffarabadi/Gir_Fighter_Cow_.jpg",
+    "breed": "Jaffarabadi"
+  },
+  {
+    "base_id": "Clean_Buff_043",
+    "gender": "Female",
+    "primary": "buffalo/Jaffarabadi/Gujarat_Kanhaiya_Dairy_Farm_Jamnagar_.jpg",
+    "breed": "Jaffarabadi"
+  },
+  {
+    "base_id": "Clean_Buff_044",
+    "gender": "Female",
+    "primary": "buffalo/Jaffarabadi/Jafarabadi_Buffalo_and_Cows_Manavadar.jpg",
+    "breed": "Jaffarabadi"
+  },
+  {
+    "base_id": "Clean_Buff_045",
+    "gender": "Female",
+    "primary": "buffalo/Jaffarabadi/Jafarabadi_Buffalo_buffalo_cow_.jpg",
+    "breed": "Jaffarabadi"
+  },
+  {
+    "base_id": "Clean_Buff_046",
+    "gender": "Male",
+    "primary": "buffalo/Jaffarabadi/Jafarabadi_buffalo_bull_for_sales_4_.jpg",
+    "breed": "Jaffarabadi"
+  },
+  {
+    "base_id": "Clean_Buff_047",
+    "gender": "Female",
+    "primary": "buffalo/Jaffarabadi/Jafarabadi_buffalo_Chandani_dairy_.jpg",
+    "breed": "Jaffarabadi"
+  },
+  {
+    "base_id": "Clean_Buff_048",
+    "gender": "Female",
+    "primary": "buffalo/Jaffarabadi/jafarabadi_buffalo_dairyfarm_cattle_.jpg",
+    "breed": "Jaffarabadi"
+  },
+  {
+    "base_id": "Clean_Buff_049",
+    "gender": "Male",
+    "primary": "buffalo/Jaffarabadi/Jafarabadi_bull_from_Gujarat_-_YouTube.jpg",
+    "breed": "Jaffarabadi"
+  },
+  {
+    "base_id": "Clean_Buff_050",
+    "gender": "Male",
+    "primary": "buffalo/Jaffarabadi/Jafarabadi_Bull_SS-ABC_Dams_Yield_.jpg",
+    "breed": "Jaffarabadi"
+  },
+  {
+    "base_id": "Clean_Buff_051",
+    "gender": "Female",
+    "primary": "buffalo/Jaffarabadi/Jafarabadi_heifer_Mekhi_Mother-Bhoj_.jpg",
+    "breed": "Jaffarabadi"
+  },
+  {
+    "base_id": "Clean_Buff_052",
+    "gender": "Female",
+    "primary": "buffalo/Jaffarabadi/Jaffarabadi_Dairy_Knowledge_Portal.jpg",
+    "breed": "Jaffarabadi"
+  },
+  {
+    "base_id": "Clean_Buff_053",
+    "gender": "Female",
+    "primary": "buffalo/Jaffarabadi/Milking_Jafrabadi_Buffalo_Farm_.jpg",
+    "breed": "Jaffarabadi"
+  },
+  {
+    "base_id": "Clean_Buff_054",
+    "gender": "Male",
+    "primary": "buffalo/Jaffarabadi/Some_good_jafrabadi_bulls.jpg",
+    "breed": "Jaffarabadi"
+  },
+  {
+    "base_id": "Clean_Buff_055",
+    "gender": "Male",
+    "primary": "buffalo/Jaffarabadi/Surti_Buffalo_Black_Jafarabadi_Bull_at_.jpg",
+    "breed": "Jaffarabadi"
+  },
+  {
+    "base_id": "Clean_Buff_056",
+    "gender": "Female",
+    "primary": "buffalo/Jaffarabadi/Top_Milk_Dairy_in_Gathaman_-_Best_Doodh_.jpg",
+    "breed": "Jaffarabadi"
+  },
+  {
+    "base_id": "Clean_Buff_057",
+    "gender": "Male",
+    "primary": "buffalo/Jaffarabadi/Tulsidas_-_BAIF_Sire_Directory.jpg",
+    "breed": "Jaffarabadi"
+  },
+  {
+    "base_id": "Clean_Buff_058",
+    "gender": "Female",
+    "primary": "buffalo/kalahandi/kalahandi_Buffalo_dairy_farming_.jpg",
+    "breed": "kalahandi"
+  },
+  {
+    "base_id": "Clean_Buff_059",
+    "gender": "Female",
+    "primary": "buffalo/kalahandi/Luit_Dairy_Knowledge_Portal.jpg",
+    "breed": "kalahandi"
+  },
+  {
+    "base_id": "Clean_Buff_060",
+    "gender": "Female",
+    "primary": "buffalo/luit/Dairy_Farming_Buffalo_Pics (1).jpg",
+    "breed": "luit"
+  },
+  {
+    "base_id": "Clean_Buff_061",
+    "gender": "Female",
+    "primary": "buffalo/luit/How_to_Start_Dairy_Farming_in_Odisha_.jpg",
+    "breed": "luit"
+  },
+  {
+    "base_id": "Clean_Buff_062",
+    "gender": "Male",
+    "primary": "buffalo/marathwada/breeds_analyses_breeding_males_.jpg",
+    "breed": "marathwada"
+  },
+  {
+    "base_id": "Clean_Buff_063",
+    "gender": "Female",
+    "primary": "buffalo/marathwada/Buffalo_Buffalo_Mother_Son_Stock_Image_.jpg",
+    "breed": "marathwada"
+  },
+  {
+    "base_id": "Clean_Buff_064",
+    "gender": "Female",
+    "primary": "buffalo/marathwada/Dairy_Business_Ideas_marathwadi_buffalo_.jpg",
+    "breed": "marathwada"
+  },
+  {
+    "base_id": "Clean_Buff_065",
+    "gender": "Female",
+    "primary": "buffalo/marathwada/Department_of_animal_husbandry_and_dairying (2).jpg",
+    "breed": "marathwada"
+  },
+  {
+    "base_id": "Clean_Buff_066",
+    "gender": "Female",
+    "primary": "buffalo/marathwada/Manda_Dairy_Knowledge_Portal (1).jpg",
+    "breed": "marathwada"
+  },
+  {
+    "base_id": "Clean_Buff_067",
+    "gender": "Female",
+    "primary": "buffalo/marathwada/Manda_Dairy_Knowledge_Portal.jpg",
+    "breed": "marathwada"
+  },
+  {
+    "base_id": "Clean_Buff_068",
+    "gender": "Female",
+    "primary": "buffalo/marathwada/Marathwadi_Buffalo_dairy_farming_.jpg",
+    "breed": "marathwada"
+  },
+  {
+    "base_id": "Clean_Buff_069",
+    "gender": "Female",
+    "primary": "buffalo/marathwada/Mehsana_Dairy_Knowledge_Portal (1).jpg",
+    "breed": "marathwada"
+  },
+  {
+    "base_id": "Clean_Buff_070",
+    "gender": "Male",
+    "primary": "buffalo/murrah/1_Yr_Male_Murrah_Buffalo_Calf_at_ (1).jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_071",
+    "gender": "Male",
+    "primary": "buffalo/murrah/1_Yr_Male_Murrah_Buffalo_Calf_at_.jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_072",
+    "gender": "Female",
+    "primary": "buffalo/murrah/353_Murrah_Buffalo_for_Dairy_Farming_.jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_073",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Dairy_Farming_Murrah_Buffalo_Pictures.jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_074",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Dairy_Farm_Murrah_Buffalo_PriceDairy_.jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_075",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Dairy_Murrah_Buffalo_at_70000_per_.jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_076",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Dairy_Murrah_Buffalo_for_Dairy_Farming_.jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_077",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Dairy_Murrah_Buffalo_for_Sale_at_an_.jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_078",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Goyat_Murrah_Buffalo_Dairy_Farm_in_.jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_079",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Harshit_Gupta_Dairy_Farm (3).jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_080",
+    "gender": "Female",
+    "primary": "buffalo/murrah/High_Milking_Pure_Breed_Murrah_Buffalo_.jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_081",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Indian_Dairy_Farm_Murrah_Buffalo_.jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_082",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Kissan_Dairy_Farm.jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_083",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Manjeet_Singh_Fauji_Dairy_form_Haryana_.jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_084",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Mansa_Dairy_Farm.jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_085",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Murrah_Buffalo_-_Female_Breed_High_.jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_086",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Murrah_buffalo_breed_black_cow_standing_.jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_087",
+    "gender": "Male",
+    "primary": "buffalo/murrah/Murrah_buffalo_bulls_to_be_used_for_.jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_088",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Murrah_Buffalo_Calf_Milking_Capacity_.jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_089",
+    "gender": "Male",
+    "primary": "buffalo/murrah/Murrah_Buffalo_Clone_1st_clone_male_.jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_090",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Murrah_Buffalo_Dairy_.jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_091",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Murrah_Buffalo_Dairy_Farm_at_87000_.jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_092",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Murrah_Buffalo_High_Milking_Capacity_.jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_093",
+    "gender": "Male",
+    "primary": "buffalo/murrah/Murrah_Buffalo_Male_Calf_at_3000000_.jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_094",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Murrah_Bulbul_Buffaloes_For_Dairy_.jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_095",
+    "gender": "Male",
+    "primary": "buffalo/murrah/Murrah_BullMurrah_Buffalo_BullsBull_.jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_096",
+    "gender": "Male",
+    "primary": "buffalo/murrah/Murrah_Bull_In_India_Murrah_Buffalo_Is_ (3).jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_097",
+    "gender": "Male",
+    "primary": "buffalo/murrah/Murrah_Bull_in_India_Murrah_Buffalo_is_ (4).jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_098",
+    "gender": "Male",
+    "primary": "buffalo/murrah/Murrah_Bull_in_India_Murrah_Buffalo_is_ (5).jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_099",
+    "gender": "Male",
+    "primary": "buffalo/murrah/Murrah_Bull_Yuvraj_in_India_Murrah_.jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_100",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Murrah_Cow_waterbuffalo.jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_101",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Murrah_Dairy_Knowledge_Portal.jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_102",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Pregnant_Murrah_Buffalo_Prime_Dairy_.jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_103",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Profitable_Dairy_Farming_with_Murrah_.jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_104",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Pure_Black_Pregnant_Murrah_Buffalo_ (3).jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_105",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Pure_Black_Pregnant_Murrah_Buffalo_.jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_106",
+    "gender": "Female",
+    "primary": "buffalo/murrah/SAG_Buffalo_MURRAH_murrahcow_.jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_107",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Welcome_to_Kissan_Dairy_Farm (1).jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_108",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Welcome_to_Kissan_Dairy_Farm.jpg",
+    "breed": "murrah"
+  },
+  {
+    "base_id": "Clean_Buff_109",
+    "gender": "Female",
+    "primary": "buffalo/nagpuri/Milky_Master_Waterproof_Cow_mat_.jpg",
+    "breed": "nagpuri"
+  },
+  {
+    "base_id": "Clean_Buff_110",
+    "gender": "Female",
+    "primary": "buffalo/nagpuri/Nagpuri_cow_ox_cow_Goat_Family_.jpg",
+    "breed": "nagpuri"
+  },
+  {
+    "base_id": "Clean_Buff_111",
+    "gender": "Male",
+    "primary": "buffalo/nagpuri/Thakya_-_BAIF_Sire_Directory.jpg",
+    "breed": "nagpuri"
+  },
+  {
+    "base_id": "Clean_Buff_112",
+    "gender": "Female",
+    "primary": "buffalo/nili-ravi/Biggest_Nili_Ravi_Buffalo_Dairy_Farm_of_.jpg",
+    "breed": "nili-ravi"
+  },
+  {
+    "base_id": "Clean_Buff_113",
+    "gender": "Female",
+    "primary": "buffalo/nili-ravi/dairy_farms_productivity_with_NR-21440_.jpg",
+    "breed": "nili-ravi"
+  },
+  {
+    "base_id": "Clean_Buff_114",
+    "gender": "Female",
+    "primary": "buffalo/nili-ravi/HSB_Nili_Ravi_Bull-Parass_Mother_ (1).jpg",
+    "breed": "nili-ravi"
+  },
+  {
+    "base_id": "Clean_Buff_115",
+    "gender": "Female",
+    "primary": "buffalo/nili-ravi/HSB_Nili_Ravi_Bull-Parass_Mother_ (3).jpg",
+    "breed": "nili-ravi"
+  },
+  {
+    "base_id": "Clean_Buff_116",
+    "gender": "Male",
+    "primary": "buffalo/nili-ravi/Neeli_Ravi_buffalo_bull_ (2).jpg",
+    "breed": "nili-ravi"
+  },
+  {
+    "base_id": "Clean_Buff_117",
+    "gender": "Female",
+    "primary": "buffalo/nili-ravi/Neli_Ravi_buffalo_and_a_Sahiwal_cow_.jpg",
+    "breed": "nili-ravi"
+  },
+  {
+    "base_id": "Clean_Buff_118",
+    "gender": "Female",
+    "primary": "buffalo/nili-ravi/Nili_ravi_buffalo_dairy_lover_.jpg",
+    "breed": "nili-ravi"
+  },
+  {
+    "base_id": "Clean_Buff_119",
+    "gender": "Female",
+    "primary": "buffalo/nili-ravi/Nili_Ravi_Buffalo_Morden_Dairy_Farming.jpg",
+    "breed": "nili-ravi"
+  },
+  {
+    "base_id": "Clean_Buff_120",
+    "gender": "Male",
+    "primary": "buffalo/nili-ravi/Nili_ravi_bull_Quality_full_niliravi_.jpg",
+    "breed": "nili-ravi"
+  },
+  {
+    "base_id": "Clean_Buff_121",
+    "gender": "Female",
+    "primary": "buffalo/nili-ravi/Nili_Ravi_Female_Calf_Niliravi.jpg",
+    "breed": "nili-ravi"
+  },
+  {
+    "base_id": "Clean_Buff_122",
+    "gender": "Female",
+    "primary": "buffalo/nili-ravi/Nili_Ravi_Female_Calf_niliravi_.jpg",
+    "breed": "nili-ravi"
+  },
+  {
+    "base_id": "Clean_Buff_123",
+    "gender": "Female",
+    "primary": "buffalo/nili-ravi/Pak_Dairy_Info_-_Nili_Ravi_Buffalo (2).jpg",
+    "breed": "nili-ravi"
+  },
+  {
+    "base_id": "Clean_Buff_124",
+    "gender": "Female",
+    "primary": "buffalo/nili-ravi/Pak_Dairy_Info_-_Nili_Ravi_Buffalo.jpg",
+    "breed": "nili-ravi"
+  },
+  {
+    "base_id": "Clean_Buff_125",
+    "gender": "Female",
+    "primary": "buffalo/nili-ravi/Pure_Nili_Ravi_Buffaloes_Gender_Female_ (2).jpg",
+    "breed": "nili-ravi"
+  },
+  {
+    "base_id": "Clean_Buff_126",
+    "gender": "Female",
+    "primary": "buffalo/pandharpuri/Marathwadi_Dairy_Knowledge_Portal.jpg",
+    "breed": "pandharpuri"
+  },
+  {
+    "base_id": "Clean_Buff_127",
+    "gender": "Female",
+    "primary": "buffalo/pandharpuri/Murrah_Dairy_Knowledge_Portal.jpg",
+    "breed": "pandharpuri"
+  },
+  {
+    "base_id": "Clean_Buff_128",
+    "gender": "Female",
+    "primary": "buffalo/surti/Milking_Murrah_Buffalo_Female_750kg_.jpg",
+    "breed": "surti"
+  },
+  {
+    "base_id": "Clean_Buff_129",
+    "gender": "Female",
+    "primary": "buffalo/surti/Murrah_BuffaloShri_Ganesh_Dairy_Farm.jpg",
+    "breed": "surti"
+  },
+  {
+    "base_id": "Clean_Buff_130",
+    "gender": "Female",
+    "primary": "buffalo/surti/Murrah_Buffalo_Calf_For_Dairy_Use_.jpg",
+    "breed": "surti"
+  },
+  {
+    "base_id": "Clean_Buff_131",
+    "gender": "Female",
+    "primary": "buffalo/surti/Murrah_Buffalo_for_Dairy_Farming_.jpg",
+    "breed": "surti"
+  },
+  {
+    "base_id": "Clean_Buff_132",
+    "gender": "Female",
+    "primary": "buffalo/surti/Nadiyan_Dairy_Farm_Karnal.jpg",
+    "breed": "surti"
+  },
+  {
+    "base_id": "Clean_Buff_133",
+    "gender": "Female",
+    "primary": "buffalo/bhadwari/image_introduction_of_cows_Buffaloes_.jpg",
+    "breed": "buffalo"
+  },
+  {
+    "base_id": "Clean_Buff_134",
+    "gender": "Female",
+    "primary": "buffalo/murrah/Cows_Cattles_Ox_Buffalo_Sheep_Goat_.jpg",
+    "breed": "buffalo"
+  },
+  {
+    "base_id": "Clean_Buff_135",
+    "gender": "Male",
+    "primary": "buffalo/surti/Cattles_Ox_Buffalo_Sheep_Goat_.jpg",
+    "breed": "buffalo"
+  },
+  {
+    "base_id": "Clean_Buff_136",
+    "gender": "Male",
+    "primary": "data/new_images/malebuffolo2.webp",
+    "breed": "buffalo"
+  }
+]

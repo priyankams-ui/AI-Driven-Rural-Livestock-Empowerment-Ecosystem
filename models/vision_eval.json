@@ -1,0 +1,32 @@
+{
+  "species_model": {
+    "accuracy": 0.9931740614334471,
+    "precision": 0.9932481916187532,
+    "recall": 0.9931740614334471,
+    "f1_score": 0.9931891607636096
+  },
+  "cattle_breed_model": {
+    "accuracy": 0.911504424778761,
+    "precision": 0.9119127249562032,
+    "recall": 0.913539641943734,
+    "f1_score": 0.9091697816917843
+  },
+  "buffalo_breed_model": {
+    "accuracy": 0.8709677419354839,
+    "precision": 0.8630350138135606,
+    "recall": 0.8597144121889159,
+    "f1_score": 0.8565699262228212
+  },
+  "cattle_gender_model": {
+    "accuracy": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1_score": 1.0
+  },
+  "buffalo_gender_model": {
+    "accuracy": 0.9,
+    "precision": 0.9125,
+    "recall": 0.9,
+    "f1_score": 0.8933333333333333
+  }
+}
