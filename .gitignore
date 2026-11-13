@@ -16,3 +16,7 @@ env/
 # OS artifacts
 .DS_Store
 Thumbs.db
+
+livestock_app.db
+*.db
+static/uploads/*
